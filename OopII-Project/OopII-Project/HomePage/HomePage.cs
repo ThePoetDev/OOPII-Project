@@ -7,8 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace OopII_Project {
-    public partial class MainForm : Form {
-        public MainForm() {
+    public partial class HomePage : Form {
+        public HomePage() {
             InitializeComponent();
         }
     }

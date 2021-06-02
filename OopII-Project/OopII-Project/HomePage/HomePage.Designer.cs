@@ -1,6 +1,6 @@
 ﻿
 namespace OopII_Project {
-    partial class MainForm {
+    partial class HomePage {
         /// <summary>
         /// Required designer variable.
         /// </summary>
