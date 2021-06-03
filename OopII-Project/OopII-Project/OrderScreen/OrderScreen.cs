@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace OopII_Project.OrderScreen
+namespace OopII_Project
 {
     public partial class OrderScreen : Form
     {

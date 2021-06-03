@@ -1,8 +1,6 @@
 ﻿
-namespace OopII_Project.OrderScreen
-{
-    partial class OrderScreen
-    {
+namespace OopII_Project {
+    partial class OrderScreen {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -12,10 +10,8 @@ namespace OopII_Project.OrderScreen
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -27,8 +23,7 @@ namespace OopII_Project.OrderScreen
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             this.backButton = new System.Windows.Forms.Button();
             this.searchTextBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
@@ -41,13 +36,13 @@ namespace OopII_Project.OrderScreen
             this.cancelButton1 = new System.Windows.Forms.Button();
             this.cancelButton2 = new System.Windows.Forms.Button();
             this.orderNoLabel1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.contentLabel1 = new System.Windows.Forms.Label();
+            this.costLabel1 = new System.Windows.Forms.Label();
+            this.deliveryInformationLabel1 = new System.Windows.Forms.Label();
+            this.orderNoLabel2 = new System.Windows.Forms.Label();
+            this.contentLabel2 = new System.Windows.Forms.Label();
+            this.costLabel2 = new System.Windows.Forms.Label();
+            this.deliveryInformationLabel2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,13 +131,13 @@ namespace OopII_Project.OrderScreen
             this.tableLayoutPanel1.Controls.Add(this.cancelButton1, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.cancelButton2, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.orderNoLabel1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label8, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.contentLabel1, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.costLabel1, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.deliveryInformationLabel1, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.orderNoLabel2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.contentLabel2, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.costLabel2, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.deliveryInformationLabel2, 3, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(2, 76);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
@@ -187,82 +182,89 @@ namespace OopII_Project.OrderScreen
             // 
             this.orderNoLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.orderNoLabel1.AutoSize = true;
-            this.orderNoLabel1.Location = new System.Drawing.Point(55, 108);
+            this.orderNoLabel1.Location = new System.Drawing.Point(38, 108);
             this.orderNoLabel1.Name = "orderNoLabel1";
-            this.orderNoLabel1.Size = new System.Drawing.Size(31, 15);
+            this.orderNoLabel1.Size = new System.Drawing.Size(65, 15);
             this.orderNoLabel1.TabIndex = 10;
-            this.orderNoLabel1.Text = "        ";
+            this.orderNoLabel1.Text = "Order No 1";
             this.orderNoLabel1.Visible = false;
             // 
-            // label2
+            // contentLabel1
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(197, 108);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "label2";
+            this.contentLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.contentLabel1.AutoSize = true;
+            this.contentLabel1.Location = new System.Drawing.Point(186, 108);
+            this.contentLabel1.Name = "contentLabel1";
+            this.contentLabel1.Size = new System.Drawing.Size(59, 15);
+            this.contentLabel1.TabIndex = 11;
+            this.contentLabel1.Text = "Content 1";
+            this.contentLabel1.Visible = false;
             // 
-            // label3
+            // costLabel1
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(373, 108);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "label3";
+            this.costLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.costLabel1.AutoSize = true;
+            this.costLabel1.Location = new System.Drawing.Point(372, 108);
+            this.costLabel1.Name = "costLabel1";
+            this.costLabel1.Size = new System.Drawing.Size(40, 15);
+            this.costLabel1.TabIndex = 12;
+            this.costLabel1.Text = "Cost 1";
+            this.costLabel1.Visible = false;
             // 
-            // label4
+            // deliveryInformationLabel1
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(547, 108);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "label4";
+            this.deliveryInformationLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.deliveryInformationLabel1.AutoSize = true;
+            this.deliveryInformationLabel1.Location = new System.Drawing.Point(504, 108);
+            this.deliveryInformationLabel1.Name = "deliveryInformationLabel1";
+            this.deliveryInformationLabel1.Size = new System.Drawing.Size(124, 15);
+            this.deliveryInformationLabel1.TabIndex = 13;
+            this.deliveryInformationLabel1.Text = "Delivery Information 1";
+            this.deliveryInformationLabel1.Visible = false;
             // 
-            // label5
+            // orderNoLabel2
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 265);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "label5";
+            this.orderNoLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.orderNoLabel2.AutoSize = true;
+            this.orderNoLabel2.Location = new System.Drawing.Point(38, 265);
+            this.orderNoLabel2.Name = "orderNoLabel2";
+            this.orderNoLabel2.Size = new System.Drawing.Size(65, 15);
+            this.orderNoLabel2.TabIndex = 14;
+            this.orderNoLabel2.Text = "Order No 2";
+            this.orderNoLabel2.Visible = false;
             // 
-            // label6
+            // contentLabel2
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(197, 265);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "label6";
+            this.contentLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.contentLabel2.AutoSize = true;
+            this.contentLabel2.Location = new System.Drawing.Point(186, 265);
+            this.contentLabel2.Name = "contentLabel2";
+            this.contentLabel2.Size = new System.Drawing.Size(59, 15);
+            this.contentLabel2.TabIndex = 15;
+            this.contentLabel2.Text = "Content 2";
+            this.contentLabel2.Visible = false;
             // 
-            // label7
+            // costLabel2
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(373, 265);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "label7";
+            this.costLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.costLabel2.AutoSize = true;
+            this.costLabel2.Location = new System.Drawing.Point(372, 265);
+            this.costLabel2.Name = "costLabel2";
+            this.costLabel2.Size = new System.Drawing.Size(40, 15);
+            this.costLabel2.TabIndex = 16;
+            this.costLabel2.Text = "Cost 2";
+            this.costLabel2.Visible = false;
             // 
-            // label8
+            // deliveryInformationLabel2
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(547, 265);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "label8";
+            this.deliveryInformationLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.deliveryInformationLabel2.AutoSize = true;
+            this.deliveryInformationLabel2.Location = new System.Drawing.Point(504, 265);
+            this.deliveryInformationLabel2.Name = "deliveryInformationLabel2";
+            this.deliveryInformationLabel2.Size = new System.Drawing.Size(124, 15);
+            this.deliveryInformationLabel2.TabIndex = 17;
+            this.deliveryInformationLabel2.Text = "Delivery Information 2";
+            this.deliveryInformationLabel2.Visible = false;
             // 
             // OrderScreen
             // 
@@ -293,15 +295,15 @@ namespace OopII_Project.OrderScreen
         private System.Windows.Forms.Label deliveryInformationLabel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label cancellationLabel;
+        private System.Windows.Forms.Label orderNoLabel1;
+        private System.Windows.Forms.Label orderNoLabel2;
+        private System.Windows.Forms.Label contentLabel1;
+        private System.Windows.Forms.Label contentLabel2;
+        private System.Windows.Forms.Label costLabel1;
+        private System.Windows.Forms.Label costLabel2;
+        private System.Windows.Forms.Label deliveryInformationLabel1;
+        private System.Windows.Forms.Label deliveryInformationLabel2;
         private System.Windows.Forms.Button cancelButton1;
         private System.Windows.Forms.Button cancelButton2;
-        private System.Windows.Forms.Label orderNoLabel1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
     }
 }
