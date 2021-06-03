@@ -113,6 +113,46 @@ namespace OopII_Project.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap book1 {
+            get {
+                object obj = ResourceManager.GetObject("book1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap book1_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("book1_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap book2_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("book2_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap book3_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("book3_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap disc {
             get {
                 object obj = ResourceManager.GetObject("disc", resourceCulture);
@@ -136,6 +176,66 @@ namespace OopII_Project.Properties {
         internal static System.Drawing.Bitmap magazine {
             get {
                 object obj = ResourceManager.GetObject("magazine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magazine1_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("Magazine1_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magazine2_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("Magazine2_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magazine3_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("Magazine3_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Music1_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("Music1_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Music2_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("Music2_150x120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Music3_150x120 {
+            get {
+                object obj = ResourceManager.GetObject("Music3_150x120", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
