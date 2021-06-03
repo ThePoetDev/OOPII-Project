@@ -23,5 +23,10 @@ namespace OopII_Project.ShoppingCartScreen
         {
 
         }
+
+        private void msMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
