@@ -1,6 +1,6 @@
 ﻿
 namespace OopII_Project {
-    partial class LoginScreen {
+    partial class HomePageScreen {
         /// <summary>
         /// Required designer variable.
         /// </summary>

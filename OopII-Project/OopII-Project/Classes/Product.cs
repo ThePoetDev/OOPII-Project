@@ -97,8 +97,8 @@ namespace OopII_Project {
         * method will be overridden by inherited classes
         * \return string value
         */
-        public virtual string printProperties() {
-            return (_name + ";" + _price.ToString("0.00"));
+        public virtual string PrintProperties() {
+            return (_name + ";" + price.ToString("0.00"));
             //return ("Id: " + _id + "- Name : " + _name + " - Price: " + _price.ToString("0.00"));
         }
     }

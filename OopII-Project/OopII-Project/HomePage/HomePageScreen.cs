@@ -7,8 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace OopII_Project {
-    public partial class LoginScreen : Form {
-        public LoginScreen() {
+    public partial class HomePageScreen : Form {
+        public HomePageScreen() {
             InitializeComponent();
         }
 

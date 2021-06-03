@@ -182,6 +182,7 @@ namespace OopII_Project
             this.btnSignUp.TabIndex = 6;
             this.btnSignUp.Text = "Sign Up";
             this.btnSignUp.UseVisualStyleBackColor = true;
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // SignUp
             // 

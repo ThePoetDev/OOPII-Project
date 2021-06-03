@@ -79,8 +79,8 @@ namespace OopII_Project {
         * \brief overrided method of printProperties
         * \return string values
     */
-        public override string printProperties() {
-            string[] basePrint = base.printProperties().Split(';');
+        public override string PrintProperties() {
+            string[] basePrint = base.PrintProperties().Split(';');
             return (basePrint[0] + Environment.NewLine + "---------------" + Environment.NewLine + author + Environment.NewLine + Environment.NewLine + publisher + Environment.NewLine + Environment.NewLine + basePrint[1] + " TL");
         }
 

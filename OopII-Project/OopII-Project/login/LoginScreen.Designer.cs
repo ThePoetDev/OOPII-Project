@@ -1,6 +1,6 @@
 ﻿
 namespace OopII_Project {
-    partial class HomePage {
+    partial class LoginScreen {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -83,7 +83,7 @@ namespace OopII_Project {
             this.signupButton.Text = "Sign Up";
             this.signupButton.UseVisualStyleBackColor = true;
             // 
-            // HomePage
+            // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,8 +94,8 @@ namespace OopII_Project {
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.usernameLabel);
-            this.Name = "HomePage";
-            this.Text = "HomePage";
+            this.Name = "login";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
