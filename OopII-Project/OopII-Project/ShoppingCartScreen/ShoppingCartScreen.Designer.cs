@@ -161,7 +161,7 @@ namespace OopII_Project
             this.tlpCart4.ColumnCount = 3;
             this.tlpCart4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.83871F));
             this.tlpCart4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.16129F));
-            this.tlpCart4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 204F));
+            this.tlpCart4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 206F));
             this.tlpCart4.Controls.Add(this.splitter, 0, 0);
             this.tlpCart4.Controls.Add(this.btnSipariş, 0, 0);
             this.tlpCart4.Controls.Add(this.btnLogOut, 2, 0);
@@ -179,7 +179,7 @@ namespace OopII_Project
             this.splitter.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.splitter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitter.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.splitter.Location = new System.Drawing.Point(157, 3);
+            this.splitter.Location = new System.Drawing.Point(155, 3);
             this.splitter.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.splitter.Name = "splitter";
             this.splitter.Size = new System.Drawing.Size(1, 40);
@@ -196,10 +196,11 @@ namespace OopII_Project
             this.btnSipariş.Location = new System.Drawing.Point(4, 3);
             this.btnSipariş.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSipariş.Name = "btnSipariş";
-            this.btnSipariş.Size = new System.Drawing.Size(145, 40);
+            this.btnSipariş.Size = new System.Drawing.Size(143, 40);
             this.btnSipariş.TabIndex = 4;
             this.btnSipariş.Text = "ORDERS";
             this.btnSipariş.UseVisualStyleBackColor = true;
+            this.btnSipariş.Click += new System.EventHandler(this.btnSipariş_Click);
             // 
             // btnLogOut
             // 
@@ -208,13 +209,14 @@ namespace OopII_Project
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOut.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnLogOut.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnLogOut.Location = new System.Drawing.Point(165, 3);
+            this.btnLogOut.Location = new System.Drawing.Point(163, 3);
             this.btnLogOut.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(197, 40);
+            this.btnLogOut.Size = new System.Drawing.Size(199, 40);
             this.btnLogOut.TabIndex = 3;
             this.btnLogOut.Text = "EXIT";
             this.btnLogOut.UseVisualStyleBackColor = true;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // msMenu
             // 
@@ -306,7 +308,7 @@ namespace OopII_Project
             this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSearch.MaxLength = 200;
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(434, 22);
+            this.txtSearch.Size = new System.Drawing.Size(432, 22);
             this.txtSearch.TabIndex = 0;
             // 
             // tlpCart1
@@ -358,7 +360,7 @@ namespace OopII_Project
             this.tlpCart3.ColumnCount = 3;
             this.tlpCart3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.56463F));
             this.tlpCart3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 88.43537F));
-            this.tlpCart3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tlpCart3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
             this.tlpCart3.Controls.Add(this.txtSearch, 1, 0);
             this.tlpCart3.Controls.Add(this.btnAra, 2, 0);
             this.tlpCart3.Controls.Add(this.picSearch, 0, 0);
@@ -379,10 +381,10 @@ namespace OopII_Project
             this.btnAra.FlatAppearance.BorderSize = 0;
             this.btnAra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAra.Location = new System.Drawing.Point(503, 3);
+            this.btnAra.Location = new System.Drawing.Point(501, 3);
             this.btnAra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAra.Name = "btnAra";
-            this.btnAra.Size = new System.Drawing.Size(116, 40);
+            this.btnAra.Size = new System.Drawing.Size(118, 40);
             this.btnAra.TabIndex = 2;
             this.btnAra.UseVisualStyleBackColor = true;
             // 
@@ -417,7 +419,7 @@ namespace OopII_Project
             this.tlpCart5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 380F));
             this.tlpCart5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 364F));
             this.tlpCart5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tlpCart5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 277F));
+            this.tlpCart5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 279F));
             this.tlpCart5.Controls.Add(this.btnRemove6, 3, 5);
             this.tlpCart5.Controls.Add(this.btnRemove5, 3, 4);
             this.tlpCart5.Controls.Add(this.btnRemove4, 3, 3);
@@ -475,7 +477,7 @@ namespace OopII_Project
             this.btnRemove6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRemove6.FlatAppearance.BorderSize = 0;
             this.btnRemove6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove6.Location = new System.Drawing.Point(838, 509);
+            this.btnRemove6.Location = new System.Drawing.Point(836, 509);
             this.btnRemove6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove6.Name = "btnRemove6";
             this.btnRemove6.Size = new System.Drawing.Size(51, 37);
@@ -490,7 +492,7 @@ namespace OopII_Project
             this.btnRemove5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRemove5.FlatAppearance.BorderSize = 0;
             this.btnRemove5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove5.Location = new System.Drawing.Point(838, 413);
+            this.btnRemove5.Location = new System.Drawing.Point(836, 413);
             this.btnRemove5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove5.Name = "btnRemove5";
             this.btnRemove5.Size = new System.Drawing.Size(51, 37);
@@ -505,7 +507,7 @@ namespace OopII_Project
             this.btnRemove4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRemove4.FlatAppearance.BorderSize = 0;
             this.btnRemove4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove4.Location = new System.Drawing.Point(838, 317);
+            this.btnRemove4.Location = new System.Drawing.Point(836, 317);
             this.btnRemove4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove4.Name = "btnRemove4";
             this.btnRemove4.Size = new System.Drawing.Size(51, 37);
@@ -520,7 +522,7 @@ namespace OopII_Project
             this.btnRemove3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRemove3.FlatAppearance.BorderSize = 0;
             this.btnRemove3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove3.Location = new System.Drawing.Point(838, 221);
+            this.btnRemove3.Location = new System.Drawing.Point(836, 221);
             this.btnRemove3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove3.Name = "btnRemove3";
             this.btnRemove3.Size = new System.Drawing.Size(51, 37);
@@ -535,7 +537,7 @@ namespace OopII_Project
             this.btnRemove2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRemove2.FlatAppearance.BorderSize = 0;
             this.btnRemove2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove2.Location = new System.Drawing.Point(838, 125);
+            this.btnRemove2.Location = new System.Drawing.Point(836, 125);
             this.btnRemove2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove2.Name = "btnRemove2";
             this.btnRemove2.Size = new System.Drawing.Size(51, 37);
@@ -551,17 +553,17 @@ namespace OopII_Project
             this.lblPrdNo6.Location = new System.Drawing.Point(4, 516);
             this.lblPrdNo6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdNo6.Name = "lblPrdNo6";
-            this.lblPrdNo6.Size = new System.Drawing.Size(47, 24);
+            this.lblPrdNo6.Size = new System.Drawing.Size(46, 24);
             this.lblPrdNo6.TabIndex = 31;
             // 
             // picPrd6
             // 
             this.picPrd6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picPrd6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picPrd6.Location = new System.Drawing.Point(59, 483);
+            this.picPrd6.Location = new System.Drawing.Point(58, 483);
             this.picPrd6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picPrd6.Name = "picPrd6";
-            this.picPrd6.Size = new System.Drawing.Size(86, 90);
+            this.picPrd6.Size = new System.Drawing.Size(85, 90);
             this.picPrd6.TabIndex = 32;
             this.picPrd6.TabStop = false;
             // 
@@ -570,7 +572,7 @@ namespace OopII_Project
             this.lblPrdName6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdName6.AutoSize = true;
             this.lblPrdName6.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdName6.Location = new System.Drawing.Point(153, 516);
+            this.lblPrdName6.Location = new System.Drawing.Point(151, 516);
             this.lblPrdName6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdName6.Name = "lblPrdName6";
             this.lblPrdName6.Size = new System.Drawing.Size(372, 24);
@@ -580,7 +582,7 @@ namespace OopII_Project
             // 
             this.nupPrdQuantity6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nupPrdQuantity6.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nupPrdQuantity6.Location = new System.Drawing.Point(897, 513);
+            this.nupPrdQuantity6.Location = new System.Drawing.Point(895, 513);
             this.nupPrdQuantity6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nupPrdQuantity6.Minimum = new decimal(new int[] {
             1,
@@ -604,10 +606,10 @@ namespace OopII_Project
             this.lblPrdPrice6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdPrice6.AutoSize = true;
             this.lblPrdPrice6.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdPrice6.Location = new System.Drawing.Point(977, 516);
+            this.lblPrdPrice6.Location = new System.Drawing.Point(975, 516);
             this.lblPrdPrice6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdPrice6.Name = "lblPrdPrice6";
-            this.lblPrdPrice6.Size = new System.Drawing.Size(270, 24);
+            this.lblPrdPrice6.Size = new System.Drawing.Size(272, 24);
             this.lblPrdPrice6.TabIndex = 35;
             this.lblPrdPrice6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -619,17 +621,17 @@ namespace OopII_Project
             this.lblPrdNo5.Location = new System.Drawing.Point(4, 420);
             this.lblPrdNo5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdNo5.Name = "lblPrdNo5";
-            this.lblPrdNo5.Size = new System.Drawing.Size(47, 24);
+            this.lblPrdNo5.Size = new System.Drawing.Size(46, 24);
             this.lblPrdNo5.TabIndex = 26;
             // 
             // picPrd5
             // 
             this.picPrd5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picPrd5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picPrd5.Location = new System.Drawing.Point(59, 387);
+            this.picPrd5.Location = new System.Drawing.Point(58, 387);
             this.picPrd5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picPrd5.Name = "picPrd5";
-            this.picPrd5.Size = new System.Drawing.Size(86, 90);
+            this.picPrd5.Size = new System.Drawing.Size(85, 90);
             this.picPrd5.TabIndex = 27;
             this.picPrd5.TabStop = false;
             // 
@@ -638,7 +640,7 @@ namespace OopII_Project
             this.lblPrdName5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdName5.AutoSize = true;
             this.lblPrdName5.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdName5.Location = new System.Drawing.Point(153, 420);
+            this.lblPrdName5.Location = new System.Drawing.Point(151, 420);
             this.lblPrdName5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdName5.Name = "lblPrdName5";
             this.lblPrdName5.Size = new System.Drawing.Size(372, 24);
@@ -648,7 +650,7 @@ namespace OopII_Project
             // 
             this.nupPrdQuantity5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nupPrdQuantity5.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nupPrdQuantity5.Location = new System.Drawing.Point(897, 417);
+            this.nupPrdQuantity5.Location = new System.Drawing.Point(895, 417);
             this.nupPrdQuantity5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nupPrdQuantity5.Minimum = new decimal(new int[] {
             1,
@@ -672,10 +674,10 @@ namespace OopII_Project
             this.lblPrdPrice5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdPrice5.AutoSize = true;
             this.lblPrdPrice5.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdPrice5.Location = new System.Drawing.Point(977, 420);
+            this.lblPrdPrice5.Location = new System.Drawing.Point(975, 420);
             this.lblPrdPrice5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdPrice5.Name = "lblPrdPrice5";
-            this.lblPrdPrice5.Size = new System.Drawing.Size(270, 24);
+            this.lblPrdPrice5.Size = new System.Drawing.Size(272, 24);
             this.lblPrdPrice5.TabIndex = 30;
             this.lblPrdPrice5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -687,17 +689,17 @@ namespace OopII_Project
             this.lblPrdNo4.Location = new System.Drawing.Point(4, 324);
             this.lblPrdNo4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdNo4.Name = "lblPrdNo4";
-            this.lblPrdNo4.Size = new System.Drawing.Size(47, 24);
+            this.lblPrdNo4.Size = new System.Drawing.Size(46, 24);
             this.lblPrdNo4.TabIndex = 21;
             // 
             // picPrd4
             // 
             this.picPrd4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picPrd4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picPrd4.Location = new System.Drawing.Point(59, 291);
+            this.picPrd4.Location = new System.Drawing.Point(58, 291);
             this.picPrd4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picPrd4.Name = "picPrd4";
-            this.picPrd4.Size = new System.Drawing.Size(86, 90);
+            this.picPrd4.Size = new System.Drawing.Size(85, 90);
             this.picPrd4.TabIndex = 22;
             this.picPrd4.TabStop = false;
             // 
@@ -706,7 +708,7 @@ namespace OopII_Project
             this.lblPrdName4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdName4.AutoSize = true;
             this.lblPrdName4.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdName4.Location = new System.Drawing.Point(153, 324);
+            this.lblPrdName4.Location = new System.Drawing.Point(151, 324);
             this.lblPrdName4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdName4.Name = "lblPrdName4";
             this.lblPrdName4.Size = new System.Drawing.Size(372, 24);
@@ -716,7 +718,7 @@ namespace OopII_Project
             // 
             this.nupPrdQuantity4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nupPrdQuantity4.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nupPrdQuantity4.Location = new System.Drawing.Point(897, 321);
+            this.nupPrdQuantity4.Location = new System.Drawing.Point(895, 321);
             this.nupPrdQuantity4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nupPrdQuantity4.Minimum = new decimal(new int[] {
             1,
@@ -740,10 +742,10 @@ namespace OopII_Project
             this.lblPrdPrice4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdPrice4.AutoSize = true;
             this.lblPrdPrice4.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdPrice4.Location = new System.Drawing.Point(977, 324);
+            this.lblPrdPrice4.Location = new System.Drawing.Point(975, 324);
             this.lblPrdPrice4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdPrice4.Name = "lblPrdPrice4";
-            this.lblPrdPrice4.Size = new System.Drawing.Size(270, 24);
+            this.lblPrdPrice4.Size = new System.Drawing.Size(272, 24);
             this.lblPrdPrice4.TabIndex = 25;
             this.lblPrdPrice4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -755,17 +757,17 @@ namespace OopII_Project
             this.lblPrdNo3.Location = new System.Drawing.Point(4, 228);
             this.lblPrdNo3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdNo3.Name = "lblPrdNo3";
-            this.lblPrdNo3.Size = new System.Drawing.Size(47, 24);
+            this.lblPrdNo3.Size = new System.Drawing.Size(46, 24);
             this.lblPrdNo3.TabIndex = 16;
             // 
             // picPrd3
             // 
             this.picPrd3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picPrd3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picPrd3.Location = new System.Drawing.Point(59, 195);
+            this.picPrd3.Location = new System.Drawing.Point(58, 195);
             this.picPrd3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picPrd3.Name = "picPrd3";
-            this.picPrd3.Size = new System.Drawing.Size(86, 90);
+            this.picPrd3.Size = new System.Drawing.Size(85, 90);
             this.picPrd3.TabIndex = 17;
             this.picPrd3.TabStop = false;
             // 
@@ -774,7 +776,7 @@ namespace OopII_Project
             this.lblPrdName3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdName3.AutoSize = true;
             this.lblPrdName3.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdName3.Location = new System.Drawing.Point(153, 228);
+            this.lblPrdName3.Location = new System.Drawing.Point(151, 228);
             this.lblPrdName3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdName3.Name = "lblPrdName3";
             this.lblPrdName3.Size = new System.Drawing.Size(372, 24);
@@ -784,7 +786,7 @@ namespace OopII_Project
             // 
             this.nupPrdQuantity3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nupPrdQuantity3.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nupPrdQuantity3.Location = new System.Drawing.Point(897, 225);
+            this.nupPrdQuantity3.Location = new System.Drawing.Point(895, 225);
             this.nupPrdQuantity3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nupPrdQuantity3.Minimum = new decimal(new int[] {
             1,
@@ -808,10 +810,10 @@ namespace OopII_Project
             this.lblPrdPrice3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdPrice3.AutoSize = true;
             this.lblPrdPrice3.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdPrice3.Location = new System.Drawing.Point(977, 228);
+            this.lblPrdPrice3.Location = new System.Drawing.Point(975, 228);
             this.lblPrdPrice3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdPrice3.Name = "lblPrdPrice3";
-            this.lblPrdPrice3.Size = new System.Drawing.Size(270, 24);
+            this.lblPrdPrice3.Size = new System.Drawing.Size(272, 24);
             this.lblPrdPrice3.TabIndex = 20;
             this.lblPrdPrice3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -823,17 +825,17 @@ namespace OopII_Project
             this.lblPrdNo2.Location = new System.Drawing.Point(4, 132);
             this.lblPrdNo2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdNo2.Name = "lblPrdNo2";
-            this.lblPrdNo2.Size = new System.Drawing.Size(47, 24);
+            this.lblPrdNo2.Size = new System.Drawing.Size(46, 24);
             this.lblPrdNo2.TabIndex = 7;
             // 
             // picPrd2
             // 
             this.picPrd2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picPrd2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picPrd2.Location = new System.Drawing.Point(59, 99);
+            this.picPrd2.Location = new System.Drawing.Point(58, 99);
             this.picPrd2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picPrd2.Name = "picPrd2";
-            this.picPrd2.Size = new System.Drawing.Size(86, 90);
+            this.picPrd2.Size = new System.Drawing.Size(85, 90);
             this.picPrd2.TabIndex = 8;
             this.picPrd2.TabStop = false;
             // 
@@ -842,7 +844,7 @@ namespace OopII_Project
             this.lblPrdName2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdName2.AutoSize = true;
             this.lblPrdName2.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdName2.Location = new System.Drawing.Point(153, 132);
+            this.lblPrdName2.Location = new System.Drawing.Point(151, 132);
             this.lblPrdName2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdName2.Name = "lblPrdName2";
             this.lblPrdName2.Size = new System.Drawing.Size(372, 24);
@@ -852,7 +854,7 @@ namespace OopII_Project
             // 
             this.nupPrdQuantity2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nupPrdQuantity2.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nupPrdQuantity2.Location = new System.Drawing.Point(897, 129);
+            this.nupPrdQuantity2.Location = new System.Drawing.Point(895, 129);
             this.nupPrdQuantity2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nupPrdQuantity2.Minimum = new decimal(new int[] {
             1,
@@ -876,10 +878,10 @@ namespace OopII_Project
             this.lblPrdPrice2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdPrice2.AutoSize = true;
             this.lblPrdPrice2.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdPrice2.Location = new System.Drawing.Point(977, 132);
+            this.lblPrdPrice2.Location = new System.Drawing.Point(975, 132);
             this.lblPrdPrice2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdPrice2.Name = "lblPrdPrice2";
-            this.lblPrdPrice2.Size = new System.Drawing.Size(270, 24);
+            this.lblPrdPrice2.Size = new System.Drawing.Size(272, 24);
             this.lblPrdPrice2.TabIndex = 11;
             this.lblPrdPrice2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -891,17 +893,17 @@ namespace OopII_Project
             this.lblPrdNo1.Location = new System.Drawing.Point(4, 36);
             this.lblPrdNo1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdNo1.Name = "lblPrdNo1";
-            this.lblPrdNo1.Size = new System.Drawing.Size(47, 24);
+            this.lblPrdNo1.Size = new System.Drawing.Size(46, 24);
             this.lblPrdNo1.TabIndex = 0;
             // 
             // picPrd1
             // 
             this.picPrd1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picPrd1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picPrd1.Location = new System.Drawing.Point(59, 3);
+            this.picPrd1.Location = new System.Drawing.Point(58, 3);
             this.picPrd1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picPrd1.Name = "picPrd1";
-            this.picPrd1.Size = new System.Drawing.Size(86, 90);
+            this.picPrd1.Size = new System.Drawing.Size(85, 90);
             this.picPrd1.TabIndex = 1;
             this.picPrd1.TabStop = false;
             // 
@@ -910,7 +912,7 @@ namespace OopII_Project
             this.lblPrdName1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdName1.AutoSize = true;
             this.lblPrdName1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdName1.Location = new System.Drawing.Point(153, 36);
+            this.lblPrdName1.Location = new System.Drawing.Point(151, 36);
             this.lblPrdName1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdName1.Name = "lblPrdName1";
             this.lblPrdName1.Size = new System.Drawing.Size(372, 24);
@@ -920,7 +922,7 @@ namespace OopII_Project
             // 
             this.nupPrdQuantity1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nupPrdQuantity1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.nupPrdQuantity1.Location = new System.Drawing.Point(897, 33);
+            this.nupPrdQuantity1.Location = new System.Drawing.Point(895, 33);
             this.nupPrdQuantity1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nupPrdQuantity1.Minimum = new decimal(new int[] {
             1,
@@ -944,10 +946,10 @@ namespace OopII_Project
             this.lblPrdPrice1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrdPrice1.AutoSize = true;
             this.lblPrdPrice1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrdPrice1.Location = new System.Drawing.Point(977, 36);
+            this.lblPrdPrice1.Location = new System.Drawing.Point(975, 36);
             this.lblPrdPrice1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrdPrice1.Name = "lblPrdPrice1";
-            this.lblPrdPrice1.Size = new System.Drawing.Size(270, 24);
+            this.lblPrdPrice1.Size = new System.Drawing.Size(272, 24);
             this.lblPrdPrice1.TabIndex = 4;
             this.lblPrdPrice1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -958,7 +960,7 @@ namespace OopII_Project
             this.btnRemove1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRemove1.FlatAppearance.BorderSize = 0;
             this.btnRemove1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove1.Location = new System.Drawing.Point(838, 29);
+            this.btnRemove1.Location = new System.Drawing.Point(836, 29);
             this.btnRemove1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove1.Name = "btnRemove1";
             this.btnRemove1.Size = new System.Drawing.Size(51, 37);

@@ -16,7 +16,10 @@ namespace OopII_Project
         }
 
         private void backButton_Click(object sender, EventArgs e) {
-
+            Form shoppingCartScreen = new ShoppingCartScreen();
+            this.Hide();
+            shoppingCartScreen.ShowDialog();
+            this.Close();
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e) {

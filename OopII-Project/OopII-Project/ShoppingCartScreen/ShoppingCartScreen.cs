@@ -28,5 +28,19 @@ namespace OopII_Project
         {
 
         }
+
+        private void btnSipariş_Click(object sender, EventArgs e) {
+            Form orderScreen = new OrderScreen();
+            this.Hide();
+            orderScreen.ShowDialog();
+            this.Close();
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e) {
+            Form homepageScreen = new HomePageScreen();
+            this.Hide();
+            homepageScreen.ShowDialog();
+            this.Close();
+        }
     }
 }

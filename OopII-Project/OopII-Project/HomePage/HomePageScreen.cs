@@ -43,7 +43,10 @@ namespace OopII_Project {
 
         private void btnBasket_Click(object sender, EventArgs e)
         {
-
+            Form shoppingCartScreen = new ShoppingCartScreen();
+            this.Hide();
+            shoppingCartScreen.ShowDialog();
+            this.Close();
         }
 
         private void picBook1_Click(object sender, EventArgs e)
@@ -89,6 +92,10 @@ namespace OopII_Project {
         private void picMag3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void picLogo_Click(object sender, EventArgs e) {
+            
         }
     }
 }

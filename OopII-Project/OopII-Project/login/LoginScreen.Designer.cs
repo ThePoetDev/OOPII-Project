@@ -73,6 +73,7 @@ namespace OopII_Project {
             this.loginButton.TabIndex = 4;
             this.loginButton.Text = "Login";
             this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // signupButton
             // 
@@ -82,8 +83,9 @@ namespace OopII_Project {
             this.signupButton.TabIndex = 5;
             this.signupButton.Text = "Sign Up";
             this.signupButton.UseVisualStyleBackColor = true;
+            this.signupButton.Click += new System.EventHandler(this.signupButton_Click);
             // 
-            // login
+            // LoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,7 +96,7 @@ namespace OopII_Project {
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.usernameLabel);
-            this.Name = "login";
+            this.Name = "LoginScreen";
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
