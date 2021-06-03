@@ -17,7 +17,7 @@ namespace OopII_Project {
     public abstract class Product {
         private int _id;  /*!< Def ID */
         private string _name;  /*!< Def Name */
-        private double _price;  /*!< Def Price */
+        private double price;  /*!< Def Price */
         private string _image;
 
 
@@ -29,7 +29,7 @@ namespace OopII_Project {
         public Product(int id = 0, string name = "noname", double price = 0) {
             _id = id;
             _name = name;
-            _price = price;
+            this.price = price;
         }
 
         /**
@@ -69,11 +69,11 @@ namespace OopII_Project {
         */
         public double Price {
             get {
-                return _price;
+                return price;
             }
 
             set {
-                _price = value;
+                price = value;
             }
         }
 
@@ -98,7 +98,7 @@ namespace OopII_Project {
         * \return string value
         */
         public virtual string printProperties() {
-            return ("Id: " + _id + "- Name : " + _name + " - Price: " + _price.ToString("0.00"));
+            return ("Id: " + _id + "- Name : " + _name + " - Price: " + price.ToString("0.00"));
         }
     }
 }

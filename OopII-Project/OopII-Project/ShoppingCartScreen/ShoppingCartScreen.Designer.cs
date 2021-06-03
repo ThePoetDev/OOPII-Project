@@ -1,5 +1,5 @@
 ﻿
-namespace OopII_Project
+namespace OopII_Project.ShoppingCartScreen
 {
     partial class ShoppingCartScreen
     {
