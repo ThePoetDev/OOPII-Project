@@ -30,9 +30,9 @@ namespace OopII_Project {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tlp1 = new System.Windows.Forms.TableLayoutPanel();
-            this.picBook1 = new System.Windows.Forms.PictureBox();
-            this.picBook2 = new System.Windows.Forms.PictureBox();
             this.picBook3 = new System.Windows.Forms.PictureBox();
+            this.picBook2 = new System.Windows.Forms.PictureBox();
+            this.picBook1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.picCd3 = new System.Windows.Forms.PictureBox();
             this.picCd2 = new System.Windows.Forms.PictureBox();
@@ -48,9 +48,9 @@ namespace OopII_Project {
             this.btnMagazine = new System.Windows.Forms.Button();
             this.btnBasket = new System.Windows.Forms.Button();
             this.tlp1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBook1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBook2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBook3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBook2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBook1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCd3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCd2)).BeginInit();
@@ -90,7 +90,7 @@ namespace OopII_Project {
             this.lblBook.AutoSize = true;
             this.lblBook.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblBook.ForeColor = System.Drawing.Color.Blue;
-            this.lblBook.Location = new System.Drawing.Point(503, 66);
+            this.lblBook.Location = new System.Drawing.Point(483, 66);
             this.lblBook.Name = "lblBook";
             this.lblBook.Size = new System.Drawing.Size(59, 25);
             this.lblBook.TabIndex = 2;
@@ -101,7 +101,7 @@ namespace OopII_Project {
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(483, 247);
+            this.label1.Location = new System.Drawing.Point(467, 247);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 25);
             this.label1.TabIndex = 3;
@@ -112,7 +112,7 @@ namespace OopII_Project {
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(483, 433);
+            this.label2.Location = new System.Drawing.Point(467, 433);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 25);
             this.label2.TabIndex = 4;
@@ -127,7 +127,7 @@ namespace OopII_Project {
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-            this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tlp1.Controls.Add(this.picBook3, 4, 0);
             this.tlp1.Controls.Add(this.picBook2, 2, 0);
             this.tlp1.Controls.Add(this.picBook1, 0, 0);
@@ -139,35 +139,38 @@ namespace OopII_Project {
             this.tlp1.Size = new System.Drawing.Size(1062, 150);
             this.tlp1.TabIndex = 5;
             // 
+            // picBook3
+            // 
+            this.picBook3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picBook3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picBook3.Location = new System.Drawing.Point(827, 5);
+            this.picBook3.Name = "picBook3";
+            this.picBook3.Size = new System.Drawing.Size(203, 140);
+            this.picBook3.TabIndex = 5;
+            this.picBook3.TabStop = false;
+            this.picBook3.Click += new System.EventHandler(this.picBook3_Click);
+            // 
+            // picBook2
+            // 
+            this.picBook2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picBook2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picBook2.Location = new System.Drawing.Point(394, 5);
+            this.picBook2.Name = "picBook2";
+            this.picBook2.Size = new System.Drawing.Size(237, 140);
+            this.picBook2.TabIndex = 2;
+            this.picBook2.TabStop = false;
+            this.picBook2.Click += new System.EventHandler(this.picBook2_Click);
+            // 
             // picBook1
             // 
             this.picBook1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBook1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBook1.Location = new System.Drawing.Point(5, 5);
             this.picBook1.Name = "picBook1";
-            this.picBook1.Size = new System.Drawing.Size(201, 140);
+            this.picBook1.Size = new System.Drawing.Size(200, 140);
             this.picBook1.TabIndex = 0;
             this.picBook1.TabStop = false;
-            // 
-            // picBook2
-            // 
-            this.picBook2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBook2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBook2.Location = new System.Drawing.Point(397, 5);
-            this.picBook2.Name = "picBook2";
-            this.picBook2.Size = new System.Drawing.Size(237, 140);
-            this.picBook2.TabIndex = 2;
-            this.picBook2.TabStop = false;
-            // 
-            // picBook3
-            // 
-            this.picBook3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBook3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picBook3.Location = new System.Drawing.Point(830, 5);
-            this.picBook3.Name = "picBook3";
-            this.picBook3.Size = new System.Drawing.Size(203, 140);
-            this.picBook3.TabIndex = 5;
-            this.picBook3.TabStop = false;
+            this.picBook1.Click += new System.EventHandler(this.picBook1_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -178,7 +181,7 @@ namespace OopII_Project {
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel1.Controls.Add(this.picCd3, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.picCd2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.picCd1, 0, 0);
@@ -194,21 +197,23 @@ namespace OopII_Project {
             // 
             this.picCd3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCd3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picCd3.Location = new System.Drawing.Point(830, 5);
+            this.picCd3.Location = new System.Drawing.Point(827, 5);
             this.picCd3.Name = "picCd3";
             this.picCd3.Size = new System.Drawing.Size(203, 140);
             this.picCd3.TabIndex = 5;
             this.picCd3.TabStop = false;
+            this.picCd3.Click += new System.EventHandler(this.picCd3_Click);
             // 
             // picCd2
             // 
             this.picCd2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCd2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picCd2.Location = new System.Drawing.Point(397, 5);
+            this.picCd2.Location = new System.Drawing.Point(394, 5);
             this.picCd2.Name = "picCd2";
             this.picCd2.Size = new System.Drawing.Size(237, 140);
             this.picCd2.TabIndex = 2;
             this.picCd2.TabStop = false;
+            this.picCd2.Click += new System.EventHandler(this.picCd2_Click);
             // 
             // picCd1
             // 
@@ -216,9 +221,10 @@ namespace OopII_Project {
             this.picCd1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picCd1.Location = new System.Drawing.Point(5, 5);
             this.picCd1.Name = "picCd1";
-            this.picCd1.Size = new System.Drawing.Size(201, 140);
+            this.picCd1.Size = new System.Drawing.Size(200, 140);
             this.picCd1.TabIndex = 0;
             this.picCd1.TabStop = false;
+            this.picCd1.Click += new System.EventHandler(this.picCd1_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -229,7 +235,7 @@ namespace OopII_Project {
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel2.Controls.Add(this.picMag3, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.picMag2, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.picMag1, 0, 0);
@@ -245,21 +251,23 @@ namespace OopII_Project {
             // 
             this.picMag3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMag3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picMag3.Location = new System.Drawing.Point(830, 5);
+            this.picMag3.Location = new System.Drawing.Point(827, 5);
             this.picMag3.Name = "picMag3";
             this.picMag3.Size = new System.Drawing.Size(203, 140);
             this.picMag3.TabIndex = 5;
             this.picMag3.TabStop = false;
+            this.picMag3.Click += new System.EventHandler(this.picMag3_Click);
             // 
             // picMag2
             // 
             this.picMag2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMag2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picMag2.Location = new System.Drawing.Point(397, 5);
+            this.picMag2.Location = new System.Drawing.Point(394, 5);
             this.picMag2.Name = "picMag2";
             this.picMag2.Size = new System.Drawing.Size(237, 140);
             this.picMag2.TabIndex = 2;
             this.picMag2.TabStop = false;
+            this.picMag2.Click += new System.EventHandler(this.picMag2_Click);
             // 
             // picMag1
             // 
@@ -267,9 +275,10 @@ namespace OopII_Project {
             this.picMag1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picMag1.Location = new System.Drawing.Point(5, 5);
             this.picMag1.Name = "picMag1";
-            this.picMag1.Size = new System.Drawing.Size(201, 140);
+            this.picMag1.Size = new System.Drawing.Size(200, 140);
             this.picMag1.TabIndex = 0;
             this.picMag1.TabStop = false;
+            this.picMag1.Click += new System.EventHandler(this.picMag1_Click);
             // 
             // picLogo
             // 
@@ -377,10 +386,11 @@ namespace OopII_Project {
             this.Name = "LoginScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginScreen";
+            this.Load += new System.EventHandler(this.LoginScreen_Load);
             this.tlp1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBook1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBook2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBook3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBook2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBook1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picCd3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCd2)).EndInit();

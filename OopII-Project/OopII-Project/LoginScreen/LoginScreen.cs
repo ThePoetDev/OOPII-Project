@@ -11,6 +11,11 @@ namespace OopII_Project {
         public LoginScreen() {
             InitializeComponent();
         }
+
+        private void LoginScreen_Load(object sender, EventArgs e)
+        {
+
+        }
         private void btnSearch_Click(object sender, EventArgs e)
         {
 
@@ -37,6 +42,51 @@ namespace OopII_Project {
         }
 
         private void btnBasket_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picBook1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picBook2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picBook3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picCd1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picCd2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picCd3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picMag1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picMag2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picMag3_Click(object sender, EventArgs e)
         {
 
         }
