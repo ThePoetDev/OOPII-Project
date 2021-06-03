@@ -20,5 +20,25 @@ namespace OopII_Project {
         {
 
         }
+
+        private void btnBook_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMagazine_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBasket_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

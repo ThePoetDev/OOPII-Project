@@ -42,9 +42,11 @@ namespace OopII_Project {
             this.picMag2 = new System.Windows.Forms.PictureBox();
             this.picMag1 = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.cmbCategory = new System.Windows.Forms.ComboBox();
-            this.lblCategory = new System.Windows.Forms.Label();
             this.btnLogInOut = new System.Windows.Forms.Button();
+            this.btnBook = new System.Windows.Forms.Button();
+            this.btnCd = new System.Windows.Forms.Button();
+            this.btnMagazine = new System.Windows.Forms.Button();
+            this.btnBasket = new System.Windows.Forms.Button();
             this.tlp1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBook1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBook2)).BeginInit();
@@ -72,11 +74,14 @@ namespace OopII_Project {
             // btnSearch
             // 
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch.Image = global::OopII_Project.Properties.Resources.search_icon;
+            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSearch.Location = new System.Drawing.Point(665, 12);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(63, 23);
+            this.btnSearch.Size = new System.Drawing.Size(74, 23);
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Search";
+            this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -277,48 +282,88 @@ namespace OopII_Project {
             this.picLogo.TabIndex = 12;
             this.picLogo.TabStop = false;
             // 
-            // cmbCategory
-            // 
-            this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Items.AddRange(new object[] {
-            "Music Cd",
-            "Magazine"});
-            this.cmbCategory.Location = new System.Drawing.Point(242, 12);
-            this.cmbCategory.Name = "cmbCategory";
-            this.cmbCategory.Size = new System.Drawing.Size(132, 23);
-            this.cmbCategory.TabIndex = 13;
-            this.cmbCategory.Text = "Book";
-            // 
-            // lblCategory
-            // 
-            this.lblCategory.AutoSize = true;
-            this.lblCategory.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCategory.ForeColor = System.Drawing.Color.Blue;
-            this.lblCategory.Location = new System.Drawing.Point(160, 12);
-            this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(76, 20);
-            this.lblCategory.TabIndex = 14;
-            this.lblCategory.Text = "Category:";
-            // 
             // btnLogInOut
             // 
             this.btnLogInOut.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnLogInOut.ForeColor = System.Drawing.Color.Red;
+            this.btnLogInOut.Image = global::OopII_Project.Properties.Resources.login;
+            this.btnLogInOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogInOut.Location = new System.Drawing.Point(932, 12);
             this.btnLogInOut.Name = "btnLogInOut";
-            this.btnLogInOut.Size = new System.Drawing.Size(90, 23);
+            this.btnLogInOut.Size = new System.Drawing.Size(120, 41);
             this.btnLogInOut.TabIndex = 15;
             this.btnLogInOut.Text = "Log In / Out";
+            this.btnLogInOut.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLogInOut.UseVisualStyleBackColor = true;
             this.btnLogInOut.Click += new System.EventHandler(this.btnLogInOut_Click);
+            // 
+            // btnBook
+            // 
+            this.btnBook.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBook.ForeColor = System.Drawing.Color.Blue;
+            this.btnBook.Image = global::OopII_Project.Properties.Resources.book;
+            this.btnBook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBook.Location = new System.Drawing.Point(125, 11);
+            this.btnBook.Name = "btnBook";
+            this.btnBook.Size = new System.Drawing.Size(63, 24);
+            this.btnBook.TabIndex = 16;
+            this.btnBook.Text = "Book";
+            this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBook.UseVisualStyleBackColor = true;
+            this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
+            // 
+            // btnCd
+            // 
+            this.btnCd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCd.ForeColor = System.Drawing.Color.Blue;
+            this.btnCd.Image = global::OopII_Project.Properties.Resources.disc;
+            this.btnCd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCd.Location = new System.Drawing.Point(194, 11);
+            this.btnCd.Name = "btnCd";
+            this.btnCd.Size = new System.Drawing.Size(88, 24);
+            this.btnCd.TabIndex = 17;
+            this.btnCd.Text = "Music CD";
+            this.btnCd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCd.UseVisualStyleBackColor = true;
+            this.btnCd.Click += new System.EventHandler(this.btnCd_Click);
+            // 
+            // btnMagazine
+            // 
+            this.btnMagazine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMagazine.ForeColor = System.Drawing.Color.Blue;
+            this.btnMagazine.Image = global::OopII_Project.Properties.Resources.magazine;
+            this.btnMagazine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMagazine.Location = new System.Drawing.Point(288, 11);
+            this.btnMagazine.Name = "btnMagazine";
+            this.btnMagazine.Size = new System.Drawing.Size(95, 24);
+            this.btnMagazine.TabIndex = 18;
+            this.btnMagazine.Text = "Magazine";
+            this.btnMagazine.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMagazine.UseVisualStyleBackColor = true;
+            this.btnMagazine.Click += new System.EventHandler(this.btnMagazine_Click);
+            // 
+            // btnBasket
+            // 
+            this.btnBasket.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnBasket.Image = global::OopII_Project.Properties.Resources.add_to_cart;
+            this.btnBasket.Location = new System.Drawing.Point(840, 12);
+            this.btnBasket.Name = "btnBasket";
+            this.btnBasket.Size = new System.Drawing.Size(77, 41);
+            this.btnBasket.TabIndex = 19;
+            this.btnBasket.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBasket.UseVisualStyleBackColor = true;
+            this.btnBasket.Click += new System.EventHandler(this.btnBasket_Click);
             // 
             // LoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 663);
+            this.Controls.Add(this.btnBasket);
+            this.Controls.Add(this.btnMagazine);
+            this.Controls.Add(this.btnCd);
+            this.Controls.Add(this.btnBook);
             this.Controls.Add(this.btnLogInOut);
-            this.Controls.Add(this.lblCategory);
-            this.Controls.Add(this.cmbCategory);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -373,8 +418,10 @@ namespace OopII_Project {
         private System.Windows.Forms.PictureBox picMag2;
         private System.Windows.Forms.PictureBox picMag1;
         private System.Windows.Forms.PictureBox picLogo;
-        private System.Windows.Forms.ComboBox cmbCategory;
-        private System.Windows.Forms.Label lblCategory;
         private System.Windows.Forms.Button btnLogInOut;
+        private System.Windows.Forms.Button btnBook;
+        private System.Windows.Forms.Button btnCd;
+        private System.Windows.Forms.Button btnMagazine;
+        private System.Windows.Forms.Button btnBasket;
     }
 }
