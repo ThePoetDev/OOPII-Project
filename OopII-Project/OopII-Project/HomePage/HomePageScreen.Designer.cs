@@ -127,11 +127,8 @@ namespace OopII_Project {
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-<<<<<<< Updated upstream
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-=======
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
->>>>>>> Stashed changes
             this.tlp1.Controls.Add(this.picBook3, 4, 0);
             this.tlp1.Controls.Add(this.picBook2, 2, 0);
             this.tlp1.Controls.Add(this.picBook1, 0, 0);
@@ -147,12 +144,9 @@ namespace OopII_Project {
             // 
             this.picBook3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBook3.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< Updated upstream
             this.picBook3.Image = global::OopII_Project.Properties.Resources.book3_150x120;
             this.picBook3.Location = new System.Drawing.Point(815, 5);
-=======
             this.picBook3.Location = new System.Drawing.Point(809, 5);
->>>>>>> Stashed changes
             this.picBook3.Name = "picBook3";
             this.picBook3.Size = new System.Drawing.Size(203, 140);
             this.picBook3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -164,12 +158,9 @@ namespace OopII_Project {
             // 
             this.picBook2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBook2.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< Updated upstream
             this.picBook2.Image = global::OopII_Project.Properties.Resources.book2_150x120;
             this.picBook2.Location = new System.Drawing.Point(382, 5);
-=======
             this.picBook2.Location = new System.Drawing.Point(376, 5);
->>>>>>> Stashed changes
             this.picBook2.Name = "picBook2";
             this.picBook2.Size = new System.Drawing.Size(237, 140);
             this.picBook2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -184,12 +175,9 @@ namespace OopII_Project {
             this.picBook1.Image = global::OopII_Project.Properties.Resources.book1_150x120;
             this.picBook1.Location = new System.Drawing.Point(5, 5);
             this.picBook1.Name = "picBook1";
-<<<<<<< Updated upstream
             this.picBook1.Size = new System.Drawing.Size(193, 140);
             this.picBook1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-=======
             this.picBook1.Size = new System.Drawing.Size(190, 140);
->>>>>>> Stashed changes
             this.picBook1.TabIndex = 0;
             this.picBook1.TabStop = false;
             this.picBook1.Click += new System.EventHandler(this.picBook1_Click);
@@ -203,11 +191,8 @@ namespace OopII_Project {
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-<<<<<<< Updated upstream
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-=======
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
->>>>>>> Stashed changes
             this.tableLayoutPanel1.Controls.Add(this.picCd3, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.picCd2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.picCd1, 0, 0);
@@ -223,12 +208,9 @@ namespace OopII_Project {
             // 
             this.picCd3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCd3.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< Updated upstream
             this.picCd3.Image = global::OopII_Project.Properties.Resources.Music3_150x120;
             this.picCd3.Location = new System.Drawing.Point(815, 5);
-=======
             this.picCd3.Location = new System.Drawing.Point(809, 5);
->>>>>>> Stashed changes
             this.picCd3.Name = "picCd3";
             this.picCd3.Size = new System.Drawing.Size(203, 140);
             this.picCd3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -240,12 +222,9 @@ namespace OopII_Project {
             // 
             this.picCd2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCd2.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< Updated upstream
             this.picCd2.Image = global::OopII_Project.Properties.Resources.Music2_150x120;
             this.picCd2.Location = new System.Drawing.Point(382, 5);
-=======
             this.picCd2.Location = new System.Drawing.Point(376, 5);
->>>>>>> Stashed changes
             this.picCd2.Name = "picCd2";
             this.picCd2.Size = new System.Drawing.Size(237, 140);
             this.picCd2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -260,12 +239,9 @@ namespace OopII_Project {
             this.picCd1.Image = global::OopII_Project.Properties.Resources.Music1_150x120;
             this.picCd1.Location = new System.Drawing.Point(5, 5);
             this.picCd1.Name = "picCd1";
-<<<<<<< Updated upstream
             this.picCd1.Size = new System.Drawing.Size(193, 140);
             this.picCd1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-=======
             this.picCd1.Size = new System.Drawing.Size(190, 140);
->>>>>>> Stashed changes
             this.picCd1.TabIndex = 0;
             this.picCd1.TabStop = false;
             this.picCd1.Click += new System.EventHandler(this.picCd1_Click);
@@ -279,11 +255,8 @@ namespace OopII_Project {
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-<<<<<<< Updated upstream
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-=======
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
->>>>>>> Stashed changes
             this.tableLayoutPanel2.Controls.Add(this.picMag3, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.picMag2, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.picMag1, 0, 0);
@@ -299,12 +272,9 @@ namespace OopII_Project {
             // 
             this.picMag3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMag3.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< Updated upstream
             this.picMag3.Image = global::OopII_Project.Properties.Resources.Magazine3_150x120;
             this.picMag3.Location = new System.Drawing.Point(815, 5);
-=======
             this.picMag3.Location = new System.Drawing.Point(809, 5);
->>>>>>> Stashed changes
             this.picMag3.Name = "picMag3";
             this.picMag3.Size = new System.Drawing.Size(203, 140);
             this.picMag3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -316,12 +286,9 @@ namespace OopII_Project {
             // 
             this.picMag2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMag2.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< Updated upstream
             this.picMag2.Image = global::OopII_Project.Properties.Resources.Magazine2_150x120;
             this.picMag2.Location = new System.Drawing.Point(382, 5);
-=======
             this.picMag2.Location = new System.Drawing.Point(376, 5);
->>>>>>> Stashed changes
             this.picMag2.Name = "picMag2";
             this.picMag2.Size = new System.Drawing.Size(237, 140);
             this.picMag2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -336,12 +303,9 @@ namespace OopII_Project {
             this.picMag1.Image = global::OopII_Project.Properties.Resources.Magazine1_150x120;
             this.picMag1.Location = new System.Drawing.Point(5, 5);
             this.picMag1.Name = "picMag1";
-<<<<<<< Updated upstream
             this.picMag1.Size = new System.Drawing.Size(193, 140);
             this.picMag1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-=======
             this.picMag1.Size = new System.Drawing.Size(190, 140);
->>>>>>> Stashed changes
             this.picMag1.TabIndex = 0;
             this.picMag1.TabStop = false;
             this.picMag1.Click += new System.EventHandler(this.picMag1_Click);
