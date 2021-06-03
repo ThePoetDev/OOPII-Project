@@ -8,11 +8,36 @@ using System.Windows.Forms;
 
 namespace OopII_Project
 {
-    public partial class SignUpScreen : Form
+    public partial class SignUp : Form
     {
-        public SignUpScreen()
+        public SignUp()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUpScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
