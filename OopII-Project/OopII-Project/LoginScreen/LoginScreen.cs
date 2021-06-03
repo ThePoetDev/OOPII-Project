@@ -11,8 +11,12 @@ namespace OopII_Project {
         public LoginScreen() {
             InitializeComponent();
         }
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        }
+
+        private void btnLogInOut_Click(object sender, EventArgs e)
         {
 
         }

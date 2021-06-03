@@ -78,6 +78,7 @@ namespace OopII_Project {
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // lblBook
             // 
@@ -308,6 +309,7 @@ namespace OopII_Project {
             this.btnLogInOut.TabIndex = 15;
             this.btnLogInOut.Text = "Log In / Out";
             this.btnLogInOut.UseVisualStyleBackColor = true;
+            this.btnLogInOut.Click += new System.EventHandler(this.btnLogInOut_Click);
             // 
             // LoginScreen
             // 
