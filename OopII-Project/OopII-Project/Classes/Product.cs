@@ -98,7 +98,8 @@ namespace OopII_Project {
         * \return string value
         */
         public virtual string printProperties() {
-            return ("Id: " + _id + "- Name : " + _name + " - Price: " + price.ToString("0.00"));
+            return (_name + ";" + _price.ToString("0.00"));
+            //return ("Id: " + _id + "- Name : " + _name + " - Price: " + _price.ToString("0.00"));
         }
     }
 }
