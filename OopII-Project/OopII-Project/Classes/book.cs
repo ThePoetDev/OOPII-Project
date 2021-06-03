@@ -76,7 +76,7 @@ namespace OopII_Project {
         }
 
         /**
-        * \brief overrided function of printProperties
+        * \brief overrided method of printProperties
         * \return string values
     */
         public override string printProperties() {
