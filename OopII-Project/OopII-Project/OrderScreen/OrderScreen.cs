@@ -12,7 +12,7 @@ namespace OopII_Project {
     public partial class OrderScreen : Form {
         string current, item1, item2, price, isbn, author, publisher, page, amount;
         SqlDataReader dr;
-        SqlConnection con, con2;
+        SqlConnection con;
         SqlDataAdapter da,da2;
         DataTable dt,dt2;
         DataSet ds;
