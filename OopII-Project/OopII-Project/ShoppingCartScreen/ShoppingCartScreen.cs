@@ -10,9 +10,11 @@ namespace OopII_Project
 {
     public partial class ShoppingCartScreen : Form
     {
-        public ShoppingCartScreen()
+        string current;
+        public ShoppingCartScreen(string _current)
         {
             InitializeComponent();
+            current = _current;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -21,7 +23,7 @@ namespace OopII_Project
 
         private void ShoppingCartScreen_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show(current);
         }
 
         private void msMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -30,14 +32,14 @@ namespace OopII_Project
         }
 
         private void btnSipariş_Click(object sender, EventArgs e) {
-            Form orderScreen = new OrderScreen();
+            Form orderScreen = new OrderScreen( current);
             this.Hide();
             orderScreen.ShowDialog();
             this.Close();
         }
 
         private void btnLogOut_Click(object sender, EventArgs e) {
-            Form homepageScreen = new HomePageScreen();
+            Form homepageScreen = new HomePageScreen(current);
             this.Hide();
             homepageScreen.ShowDialog();
             this.Close();

@@ -8,8 +8,11 @@ using System.Windows.Forms;
 
 namespace OopII_Project {
     public partial class HomePageScreen : Form {
-        public HomePageScreen() {
+        string current;
+        public HomePageScreen(string _current) {
             InitializeComponent();
+            current = _current;
+            
         }
 
         private void LoginScreen_Load(object sender, EventArgs e)
@@ -43,7 +46,7 @@ namespace OopII_Project {
 
         private void btnBasket_Click(object sender, EventArgs e)
         {
-            Form shoppingCartScreen = new ShoppingCartScreen();
+            Form shoppingCartScreen = new ShoppingCartScreen(current);
             this.Hide();
             shoppingCartScreen.ShowDialog();
             this.Close();

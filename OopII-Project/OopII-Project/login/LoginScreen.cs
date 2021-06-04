@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 namespace OopII_Project {
     public partial class LoginScreen : Form {
 
-        
+    
 
         SqlDataReader dr;
         SqlConnection con;
@@ -43,7 +43,7 @@ namespace OopII_Project {
                         MessageBoxIcon.Error);
                 }
                 else {
-                    Form homepageScreen = new HomePageScreen();
+                                       Form homepageScreen = new HomePageScreen(usernameTextBox.Text);
                     this.Hide();
                     homepageScreen.ShowDialog();
                     this.Close();
