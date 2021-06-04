@@ -32,8 +32,6 @@ namespace OopII_Project
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             this.tbName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
-            this.lblSurname = new System.Windows.Forms.Label();
-            this.tbSurname = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.tbEmail = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
@@ -41,7 +39,7 @@ namespace OopII_Project
             this.lblPassword = new System.Windows.Forms.Label();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.lblAdress = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbAdress = new System.Windows.Forms.TextBox();
             this.btnSignUp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -67,33 +65,13 @@ namespace OopII_Project
             this.lblName.Text = "Name :";
             this.lblName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // lblSurname
-            // 
-            this.lblSurname.AutoSize = true;
-            this.lblSurname.BackColor = System.Drawing.Color.Indigo;
-            this.lblSurname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSurname.ForeColor = System.Drawing.Color.Yellow;
-            this.lblSurname.Location = new System.Drawing.Point(143, 121);
-            this.lblSurname.Name = "lblSurname";
-            this.lblSurname.Size = new System.Drawing.Size(86, 21);
-            this.lblSurname.TabIndex = 100;
-            this.lblSurname.Text = "Surname :";
-            // 
-            // tbSurname
-            // 
-            this.tbSurname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbSurname.Location = new System.Drawing.Point(260, 117);
-            this.tbSurname.Name = "tbSurname";
-            this.tbSurname.Size = new System.Drawing.Size(153, 29);
-            this.tbSurname.TabIndex = 1;
-            // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.BackColor = System.Drawing.Color.Blue;
             this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblEmail.ForeColor = System.Drawing.Color.Orange;
-            this.lblEmail.Location = new System.Drawing.Point(143, 180);
+            this.lblEmail.Location = new System.Drawing.Point(143, 124);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(52, 21);
             this.lblEmail.TabIndex = 1000;
@@ -102,7 +80,7 @@ namespace OopII_Project
             // tbEmail
             // 
             this.tbEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbEmail.Location = new System.Drawing.Point(260, 176);
+            this.tbEmail.Location = new System.Drawing.Point(260, 120);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(221, 29);
             this.tbEmail.TabIndex = 2;
@@ -114,7 +92,7 @@ namespace OopII_Project
             this.lblUsername.BackColor = System.Drawing.Color.Lime;
             this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblUsername.ForeColor = System.Drawing.Color.Red;
-            this.lblUsername.Location = new System.Drawing.Point(143, 235);
+            this.lblUsername.Location = new System.Drawing.Point(143, 189);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(95, 21);
             this.lblUsername.TabIndex = 100;
@@ -124,7 +102,7 @@ namespace OopII_Project
             // tbUsername
             // 
             this.tbUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbUsername.Location = new System.Drawing.Point(260, 227);
+            this.tbUsername.Location = new System.Drawing.Point(260, 181);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(153, 29);
             this.tbUsername.TabIndex = 3;
@@ -135,7 +113,7 @@ namespace OopII_Project
             this.lblPassword.BackColor = System.Drawing.Color.Yellow;
             this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPassword.ForeColor = System.Drawing.Color.DarkViolet;
-            this.lblPassword.Location = new System.Drawing.Point(143, 286);
+            this.lblPassword.Location = new System.Drawing.Point(143, 230);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(90, 21);
             this.lblPassword.TabIndex = 100;
@@ -144,7 +122,7 @@ namespace OopII_Project
             // tbPassword
             // 
             this.tbPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbPassword.Location = new System.Drawing.Point(260, 283);
+            this.tbPassword.Location = new System.Drawing.Point(260, 227);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(153, 29);
@@ -157,20 +135,20 @@ namespace OopII_Project
             this.lblAdress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(0)))));
             this.lblAdress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblAdress.ForeColor = System.Drawing.Color.Indigo;
-            this.lblAdress.Location = new System.Drawing.Point(143, 331);
+            this.lblAdress.Location = new System.Drawing.Point(142, 277);
             this.lblAdress.Name = "lblAdress";
             this.lblAdress.Size = new System.Drawing.Size(68, 21);
             this.lblAdress.TabIndex = 100;
             this.lblAdress.Text = "Adress :";
             // 
-            // textBox1
+            // tbAdress
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(261, 328);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(295, 88);
-            this.textBox1.TabIndex = 5;
+            this.tbAdress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbAdress.Location = new System.Drawing.Point(260, 274);
+            this.tbAdress.Multiline = true;
+            this.tbAdress.Name = "tbAdress";
+            this.tbAdress.Size = new System.Drawing.Size(295, 88);
+            this.tbAdress.TabIndex = 5;
             // 
             // btnSignUp
             // 
@@ -192,7 +170,7 @@ namespace OopII_Project
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(579, 505);
             this.Controls.Add(this.btnSignUp);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbAdress);
             this.Controls.Add(this.lblAdress);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.lblPassword);
@@ -200,8 +178,6 @@ namespace OopII_Project
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.tbEmail);
             this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.tbSurname);
-            this.Controls.Add(this.lblSurname);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.tbName);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -218,8 +194,6 @@ namespace OopII_Project
 
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblSurname;
-        private System.Windows.Forms.TextBox tbSurname;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Label lblUsername;
@@ -227,7 +201,7 @@ namespace OopII_Project
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label lblAdress;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbAdress;
         private System.Windows.Forms.Button btnSignUp;
     }
 }

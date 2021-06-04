@@ -36,16 +36,15 @@ namespace OopII_Project {
 
         private void btnSignUp_Click(object sender, EventArgs e) {
             Customer newc = new Customer();
-            string message = "";
-            if (tbName.Text.Length < 1 || tbSurname.Text.Length < 1 || tbUsername.Text.Length < 1 || tbPassword.Text.Length < 1) {
-                MessageBox.Show("Mail ve Adres harici bilgiler boş bırakılamaz.");
+            if (tbName.Text.Length < 1 || tbEmail.Text.Length < 1 || tbUsername.Text.Length < 1 || tbPassword.Text.Length < 1 || tbAdress.Text.Length <1) {
+                MessageBox.Show(" Please fill all the fields.");
             }
             else {
                 newc.Name = tbName.Text.ToString();
                 newc.Email = tbEmail.Text.ToString();
                 newc.Username = tbUsername.Text.ToString();
                 newc.Password = tbPassword.Text.ToString();
-                newc.Address = textBox1.Text.ToString();
+                newc.Address = tbAdress.Text.ToString();
 
                 SqlConnection con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
                 SqlConnection con2 = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
@@ -55,7 +54,7 @@ namespace OopII_Project {
                     SqlCommand cmd = new SqlCommand("Select * From Customer Where username='" + newc.Username + "'", con);
                     SqlDataReader dr = cmd.ExecuteReader();
                     if (dr.Read()) {
-                        MessageBox.Show("Aynı isimli kullanıcı bulunmakta lütfen farklı bir kullanıcı adı kullanınız.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Username in use.. Choose another one.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else {
                         con2.Open();
@@ -68,10 +67,11 @@ namespace OopII_Project {
                         com.Parameters.AddWithValue("@password", newc.Password);
                         com.ExecuteNonQuery();
 
-                        MessageBox.Show("Kaydınız başarı ile oluşturuldu.", "", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        MessageBox.Show("Success", "", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         con2.Close();
 
                     }
+                    this.Close();
                 }
                
             }
