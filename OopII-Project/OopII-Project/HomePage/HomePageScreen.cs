@@ -100,5 +100,10 @@ namespace OopII_Project {
         private void picLogo_Click(object sender, EventArgs e) {
             
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

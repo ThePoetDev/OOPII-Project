@@ -47,6 +47,7 @@ namespace OopII_Project {
             this.btnCd = new System.Windows.Forms.Button();
             this.btnMagazine = new System.Windows.Forms.Button();
             this.btnBasket = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.tlp1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBook3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBook2)).BeginInit();
@@ -127,7 +128,7 @@ namespace OopII_Project {
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-            this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tlp1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tlp1.Controls.Add(this.picBook3, 4, 0);
             this.tlp1.Controls.Add(this.picBook2, 2, 0);
@@ -145,8 +146,7 @@ namespace OopII_Project {
             this.picBook3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBook3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBook3.Image = global::OopII_Project.Properties.Resources.book3_150x120;
-            this.picBook3.Location = new System.Drawing.Point(815, 5);
-            this.picBook3.Location = new System.Drawing.Point(809, 5);
+            this.picBook3.Location = new System.Drawing.Point(812, 5);
             this.picBook3.Name = "picBook3";
             this.picBook3.Size = new System.Drawing.Size(203, 140);
             this.picBook3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -159,8 +159,7 @@ namespace OopII_Project {
             this.picBook2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBook2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBook2.Image = global::OopII_Project.Properties.Resources.book2_150x120;
-            this.picBook2.Location = new System.Drawing.Point(382, 5);
-            this.picBook2.Location = new System.Drawing.Point(376, 5);
+            this.picBook2.Location = new System.Drawing.Point(379, 5);
             this.picBook2.Name = "picBook2";
             this.picBook2.Size = new System.Drawing.Size(237, 140);
             this.picBook2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -175,9 +174,8 @@ namespace OopII_Project {
             this.picBook1.Image = global::OopII_Project.Properties.Resources.book1_150x120;
             this.picBook1.Location = new System.Drawing.Point(5, 5);
             this.picBook1.Name = "picBook1";
-            this.picBook1.Size = new System.Drawing.Size(193, 140);
+            this.picBook1.Size = new System.Drawing.Size(192, 140);
             this.picBook1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.picBook1.Size = new System.Drawing.Size(190, 140);
             this.picBook1.TabIndex = 0;
             this.picBook1.TabStop = false;
             this.picBook1.Click += new System.EventHandler(this.picBook1_Click);
@@ -191,7 +189,7 @@ namespace OopII_Project {
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.Controls.Add(this.picCd3, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.picCd2, 2, 0);
@@ -209,8 +207,7 @@ namespace OopII_Project {
             this.picCd3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCd3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picCd3.Image = global::OopII_Project.Properties.Resources.Music3_150x120;
-            this.picCd3.Location = new System.Drawing.Point(815, 5);
-            this.picCd3.Location = new System.Drawing.Point(809, 5);
+            this.picCd3.Location = new System.Drawing.Point(812, 5);
             this.picCd3.Name = "picCd3";
             this.picCd3.Size = new System.Drawing.Size(203, 140);
             this.picCd3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -223,8 +220,7 @@ namespace OopII_Project {
             this.picCd2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCd2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picCd2.Image = global::OopII_Project.Properties.Resources.Music2_150x120;
-            this.picCd2.Location = new System.Drawing.Point(382, 5);
-            this.picCd2.Location = new System.Drawing.Point(376, 5);
+            this.picCd2.Location = new System.Drawing.Point(379, 5);
             this.picCd2.Name = "picCd2";
             this.picCd2.Size = new System.Drawing.Size(237, 140);
             this.picCd2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -239,9 +235,8 @@ namespace OopII_Project {
             this.picCd1.Image = global::OopII_Project.Properties.Resources.Music1_150x120;
             this.picCd1.Location = new System.Drawing.Point(5, 5);
             this.picCd1.Name = "picCd1";
-            this.picCd1.Size = new System.Drawing.Size(193, 140);
+            this.picCd1.Size = new System.Drawing.Size(192, 140);
             this.picCd1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.picCd1.Size = new System.Drawing.Size(190, 140);
             this.picCd1.TabIndex = 0;
             this.picCd1.TabStop = false;
             this.picCd1.Click += new System.EventHandler(this.picCd1_Click);
@@ -255,7 +250,7 @@ namespace OopII_Project {
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel2.Controls.Add(this.picMag3, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.picMag2, 2, 0);
@@ -273,8 +268,7 @@ namespace OopII_Project {
             this.picMag3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMag3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picMag3.Image = global::OopII_Project.Properties.Resources.Magazine3_150x120;
-            this.picMag3.Location = new System.Drawing.Point(815, 5);
-            this.picMag3.Location = new System.Drawing.Point(809, 5);
+            this.picMag3.Location = new System.Drawing.Point(812, 5);
             this.picMag3.Name = "picMag3";
             this.picMag3.Size = new System.Drawing.Size(203, 140);
             this.picMag3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -287,8 +281,7 @@ namespace OopII_Project {
             this.picMag2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMag2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picMag2.Image = global::OopII_Project.Properties.Resources.Magazine2_150x120;
-            this.picMag2.Location = new System.Drawing.Point(382, 5);
-            this.picMag2.Location = new System.Drawing.Point(376, 5);
+            this.picMag2.Location = new System.Drawing.Point(379, 5);
             this.picMag2.Name = "picMag2";
             this.picMag2.Size = new System.Drawing.Size(237, 140);
             this.picMag2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -303,9 +296,8 @@ namespace OopII_Project {
             this.picMag1.Image = global::OopII_Project.Properties.Resources.Magazine1_150x120;
             this.picMag1.Location = new System.Drawing.Point(5, 5);
             this.picMag1.Name = "picMag1";
-            this.picMag1.Size = new System.Drawing.Size(193, 140);
+            this.picMag1.Size = new System.Drawing.Size(192, 140);
             this.picMag1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.picMag1.Size = new System.Drawing.Size(190, 140);
             this.picMag1.TabIndex = 0;
             this.picMag1.TabStop = false;
             this.picMag1.Click += new System.EventHandler(this.picMag1_Click);
@@ -395,11 +387,24 @@ namespace OopII_Project {
             this.btnBasket.UseVisualStyleBackColor = true;
             this.btnBasket.Click += new System.EventHandler(this.btnBasket_Click);
             // 
+            // btnAdd
+            // 
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAdd.ForeColor = System.Drawing.Color.Blue;
+            this.btnAdd.Location = new System.Drawing.Point(905, 617);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(111, 34);
+            this.btnAdd.TabIndex = 20;
+            this.btnAdd.Text = "Add to Basket";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // HomePageScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 663);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnBasket);
             this.Controls.Add(this.btnMagazine);
             this.Controls.Add(this.btnCd);
@@ -465,5 +470,6 @@ namespace OopII_Project {
         private System.Windows.Forms.Button btnCd;
         private System.Windows.Forms.Button btnMagazine;
         private System.Windows.Forms.Button btnBasket;
+        private System.Windows.Forms.Button btnAdd;
     }
 }
