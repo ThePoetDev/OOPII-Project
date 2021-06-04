@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 namespace OopII_Project {
     public partial class LoginScreen : Form {
 
+        
 
         SqlDataReader dr;
         SqlConnection con;
@@ -27,8 +28,8 @@ namespace OopII_Project {
         private void loginButton_Click(object sender, EventArgs e) {
             if (usernameTextBox.Text != null || usernameTextBox.Text != null) {
                 con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
-                da = new SqlDataAdapter("Select * From Customer Where username='" + usernameTextBox.Text.Trim()
-                    + "' and password='" + passwordTextBox.Text.Trim() + "'", con);
+                da = new SqlDataAdapter("Select * From Customer Where Username='" + usernameTextBox.Text.Trim()
+                    + "' and Password='" + passwordTextBox.Text.Trim() + "'", con);
                 dt = new DataTable();
             }
             try {

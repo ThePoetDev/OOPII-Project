@@ -58,7 +58,7 @@ namespace OopII_Project {
                     }
                     else {
                         con2.Open();
-                        string command = "insert into Customer(Name,Adress,Email,username,password) values (@name,@adress,@email,@username,@password)";
+                        string command = "insert into Customer(Name,Adress,Email,Username,Password) values (@name,@adress,@email,@username,@password)";
                         SqlCommand com = new SqlCommand(command, con2);
                         com.Parameters.AddWithValue("@name", newc.Name);
                         com.Parameters.AddWithValue("@adress", newc.Address);
