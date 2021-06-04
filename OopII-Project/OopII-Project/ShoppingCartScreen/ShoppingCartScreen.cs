@@ -32,12 +32,8 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-<<<<<<< Updated upstream
             item2amount = nupPrdQuantity2.Value.ToString();
             TotalPriceChange();
-
-=======
->>>>>>> Stashed changes
         }
 
         private void nupPrdQuantity3_ValueChanged(object sender, EventArgs e)
@@ -51,13 +47,8 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-<<<<<<< Updated upstream
             item3amount = nupPrdQuantity3.Value.ToString();
             TotalPriceChange();
-
-
-=======
->>>>>>> Stashed changes
         }
 
         private void nupPrdQuantity4_ValueChanged(object sender, EventArgs e)
@@ -71,14 +62,8 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-<<<<<<< Updated upstream
             item4amount = nupPrdQuantity4.Value.ToString();
             TotalPriceChange();
-
-
-
-=======
->>>>>>> Stashed changes
         }
 
         private void nupPrdQuantity5_ValueChanged(object sender, EventArgs e)
@@ -92,13 +77,8 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-<<<<<<< Updated upstream
             item5amount = nupPrdQuantity5.Value.ToString();
             TotalPriceChange();
-
-
-=======
->>>>>>> Stashed changes
         }
 
         private void nupPrdQuantity1_ValueChanged(object sender, EventArgs e)
@@ -112,13 +92,8 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-<<<<<<< Updated upstream
             item1amount = nupPrdQuantity1.Value.ToString();
             TotalPriceChange();
-
-
-=======
->>>>>>> Stashed changes
         }
 
 
