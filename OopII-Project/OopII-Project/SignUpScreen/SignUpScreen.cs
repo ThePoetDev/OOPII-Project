@@ -48,7 +48,8 @@ namespace OopII_Project {
 
                 SqlConnection con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
                 SqlConnection con2 = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
-             
+                SqlConnection con3 = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
+
                 if (con.State == ConnectionState.Closed) {
                     con.Open();
                     SqlCommand cmd = new SqlCommand("Select * From Customer Where username='" + newc.Username + "'", con);
@@ -66,6 +67,11 @@ namespace OopII_Project {
                         com.Parameters.AddWithValue("@username", newc.Username);
                         com.Parameters.AddWithValue("@password", newc.Password);
                         com.ExecuteNonQuery();
+                        if (con3.State == ConnectionState.Closed) con3.Open();
+                        SqlCommand com2 = new SqlCommand("insert into ShoppingCarts(username) values (@customerusername)", con3);
+                        com2.Parameters.AddWithValue("@customerusername", newc.Username);
+                        com2.ExecuteNonQuery();
+                        con3.Close();
 
                         MessageBox.Show("Success", "", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         con2.Close();
