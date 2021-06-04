@@ -32,7 +32,9 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-            load();
+            item2amount = nupPrdQuantity2.Value.ToString();
+            TotalPriceChange();
+
         }
 
         private void nupPrdQuantity3_ValueChanged(object sender, EventArgs e)
@@ -46,7 +48,9 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-            load();
+            item3amount = nupPrdQuantity3.Value.ToString();
+            TotalPriceChange();
+
 
         }
 
@@ -61,7 +65,10 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-            load();
+            item4amount = nupPrdQuantity4.Value.ToString();
+            TotalPriceChange();
+
+
 
         }
 
@@ -76,7 +83,9 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-            load();
+            item5amount = nupPrdQuantity5.Value.ToString();
+            TotalPriceChange();
+
 
         }
 
@@ -91,9 +100,12 @@ namespace OopII_Project
 
             com.ExecuteNonQuery();
             con2.Close();
-            load();
+            item1amount = nupPrdQuantity1.Value.ToString();
+            TotalPriceChange();
+
+
         }
-        
+
 
 
 
@@ -120,7 +132,7 @@ namespace OopII_Project
         private void ShoppingCartScreen_Load(object sender, EventArgs e)
         {
             load();
-         
+
         }
 
 
@@ -227,20 +239,23 @@ namespace OopII_Project
             nupPrdQuantity4.Value = Convert.ToInt32(item4amount);
             nupPrdQuantity5.Value = Convert.ToInt32(item5amount);
 
-            int TotalPrice = Convert.ToInt32(lblPrdPrice1.Text) * Convert.ToInt32(item1amount) +
-                             Convert.ToInt32(lblPrdPrice2.Text) * Convert.ToInt32(item2amount) +
-                             Convert.ToInt32(lblPrdPrice3.Text) * Convert.ToInt32(item3amount) +
-                             Convert.ToInt32(lblPrdPrice4.Text) * Convert.ToInt32(item4amount) +
-                             Convert.ToInt32(lblPrdPrice5.Text) * Convert.ToInt32(item5amount);
-
-            lblTotalPrice.Text = "Total:" + TotalPrice.ToString() + "₺";
-
-
+       
+            TotalPriceChange();
+           
 
         }
 
 
+        public void TotalPriceChange(){
 
+           int at = Convert.ToInt32(lblPrdPrice1.Text) * Convert.ToInt32(item1amount) +
+                            Convert.ToInt32(lblPrdPrice2.Text) * Convert.ToInt32(item2amount) +
+                            Convert.ToInt32(lblPrdPrice3.Text) * Convert.ToInt32(item3amount) +
+                            Convert.ToInt32(lblPrdPrice4.Text) * Convert.ToInt32(item4amount) +
+                            Convert.ToInt32(lblPrdPrice5.Text) * Convert.ToInt32(item5amount);
+
+            lblTotalPrice.Text = "Total:" + at.ToString() + "₺";
+        }
 
 
 
