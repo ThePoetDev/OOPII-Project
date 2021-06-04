@@ -68,8 +68,13 @@ namespace OopII_Project {
                         com.Parameters.AddWithValue("@password", newc.Password);
                         com.ExecuteNonQuery();
                         if (con3.State == ConnectionState.Closed) con3.Open();
-                        SqlCommand com2 = new SqlCommand("insert into ShoppingCarts(username) values (@customerusername)", con3);
+                        SqlCommand com2 = new SqlCommand("insert into ShoppingCarts(username, item1amount, item2amount, item3amount, item4amount, item5amount) values (@customerusername, @amount1, @amount2, @amount3, @amount4, @amount5)", con3);
                         com2.Parameters.AddWithValue("@customerusername", newc.Username);
+                        com2.Parameters.AddWithValue("@amount1", 0);
+                        com2.Parameters.AddWithValue("@amount2", 0);
+                        com2.Parameters.AddWithValue("@amount3", 0);
+                        com2.Parameters.AddWithValue("@amount4", 0);
+                        com2.Parameters.AddWithValue("@amount5", 0);
                         com2.ExecuteNonQuery();
                         con3.Close();
 
