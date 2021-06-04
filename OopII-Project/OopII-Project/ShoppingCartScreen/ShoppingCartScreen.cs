@@ -14,11 +14,12 @@ namespace OopII_Project
     {
 
         SqlDataReader dr;
-        SqlConnection con, con2, con3;
+        SqlConnection con, con2;
         SqlDataAdapter da;
         DataTable dt;
         DataSet ds;
         SqlCommand command;
+        String item1, item2, item3, item4, item5, item1amount, item2amount, item3amount, item4amount, item5amount;
 
 
         string current;
@@ -43,18 +44,46 @@ namespace OopII_Project
             da.Fill(dt);
             con.Close();
 
-         
-
-            String item1 = dt.Rows[0]["item1"].ToString();
-            String item1amount = dt.Rows[0]["item1amount"].ToString();
-            String item2 = dt.Rows[0]["item2"].ToString();
-            String item2amount = dt.Rows[0]["item2amount"].ToString();
-            String item3 = dt.Rows[0]["item3"].ToString();
-            String item3amount = dt.Rows[0]["item3amount"].ToString();
-            String item4 = dt.Rows[0]["item4"].ToString();
-            String item4amount = dt.Rows[0]["item4amount"].ToString();
-            String item5 = dt.Rows[0]["item5"].ToString();
-            String item5amount = dt.Rows[0]["item5amount"].ToString();
+            if(dt.Rows[0]["item1"].ToString() == "") {
+                item1 = "-";
+                item1amount = "0";
+            }
+            else {
+                item1 = dt.Rows[0]["item1"].ToString();
+                item1amount = dt.Rows[0]["item1amount"].ToString();
+            }
+            if (dt.Rows[0]["item2"].ToString() == "") {
+                item2 = "-";
+                item2amount = "0";
+            }
+            else {
+                item2 = dt.Rows[0]["item2"].ToString();
+                item2amount = dt.Rows[0]["item2amount"].ToString();
+            }
+            if (dt.Rows[0]["item3"].ToString() == "") {
+                item3 = "-";
+                item3amount = "0";
+            }
+            else {
+                item3 = dt.Rows[0]["item3"].ToString();
+                item3amount = dt.Rows[0]["item3amount"].ToString();
+            }
+            if (dt.Rows[0]["item4"].ToString() == "") {
+                item4 = "-";
+                item4amount = "0";
+            }
+            else {
+                item4 = dt.Rows[0]["item4"].ToString();
+                item4amount = dt.Rows[0]["item4amount"].ToString();
+            }
+            if (dt.Rows[0]["item5"].ToString() == "") {
+                item5 = "-";
+                item5amount = "0";
+            }
+            else {
+                item5 = dt.Rows[0]["item5"].ToString();
+                item5amount = dt.Rows[0]["item5amount"].ToString();
+            }
 
             
             da = new SqlDataAdapter("Select * From Products where name='" + item1 + "'", con2);

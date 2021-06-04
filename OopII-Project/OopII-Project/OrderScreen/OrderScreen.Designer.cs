@@ -182,89 +182,82 @@ namespace OopII_Project {
             // 
             this.orderNoLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.orderNoLabel1.AutoSize = true;
-            this.orderNoLabel1.Location = new System.Drawing.Point(38, 108);
+            this.orderNoLabel1.Location = new System.Drawing.Point(20, 103);
+            this.orderNoLabel1.MinimumSize = new System.Drawing.Size(100, 25);
             this.orderNoLabel1.Name = "orderNoLabel1";
-            this.orderNoLabel1.Size = new System.Drawing.Size(65, 15);
+            this.orderNoLabel1.Size = new System.Drawing.Size(100, 25);
             this.orderNoLabel1.TabIndex = 10;
-            this.orderNoLabel1.Text = "Order No 1";
-            this.orderNoLabel1.Visible = false;
             // 
             // contentLabel1
             // 
             this.contentLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.contentLabel1.AutoSize = true;
-            this.contentLabel1.Location = new System.Drawing.Point(186, 108);
+            this.contentLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.contentLabel1.Location = new System.Drawing.Point(166, 103);
+            this.contentLabel1.MinimumSize = new System.Drawing.Size(100, 25);
             this.contentLabel1.Name = "contentLabel1";
-            this.contentLabel1.Size = new System.Drawing.Size(59, 15);
+            this.contentLabel1.Size = new System.Drawing.Size(100, 25);
             this.contentLabel1.TabIndex = 11;
-            this.contentLabel1.Text = "Content 1";
-            this.contentLabel1.Visible = false;
             // 
             // costLabel1
             // 
             this.costLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.costLabel1.AutoSize = true;
-            this.costLabel1.Location = new System.Drawing.Point(372, 108);
+            this.costLabel1.Location = new System.Drawing.Point(342, 103);
+            this.costLabel1.MinimumSize = new System.Drawing.Size(100, 25);
             this.costLabel1.Name = "costLabel1";
-            this.costLabel1.Size = new System.Drawing.Size(40, 15);
+            this.costLabel1.Size = new System.Drawing.Size(100, 25);
             this.costLabel1.TabIndex = 12;
-            this.costLabel1.Text = "Cost 1";
-            this.costLabel1.Visible = false;
             // 
             // deliveryInformationLabel1
             // 
             this.deliveryInformationLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deliveryInformationLabel1.AutoSize = true;
-            this.deliveryInformationLabel1.Location = new System.Drawing.Point(504, 108);
+            this.deliveryInformationLabel1.Location = new System.Drawing.Point(516, 103);
+            this.deliveryInformationLabel1.MinimumSize = new System.Drawing.Size(100, 25);
             this.deliveryInformationLabel1.Name = "deliveryInformationLabel1";
-            this.deliveryInformationLabel1.Size = new System.Drawing.Size(124, 15);
+            this.deliveryInformationLabel1.Size = new System.Drawing.Size(100, 25);
             this.deliveryInformationLabel1.TabIndex = 13;
-            this.deliveryInformationLabel1.Text = "Delivery Information 1";
-            this.deliveryInformationLabel1.Visible = false;
             // 
             // orderNoLabel2
             // 
             this.orderNoLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.orderNoLabel2.AutoSize = true;
-            this.orderNoLabel2.Location = new System.Drawing.Point(38, 265);
+            this.orderNoLabel2.Location = new System.Drawing.Point(20, 260);
+            this.orderNoLabel2.MinimumSize = new System.Drawing.Size(100, 25);
             this.orderNoLabel2.Name = "orderNoLabel2";
-            this.orderNoLabel2.Size = new System.Drawing.Size(65, 15);
+            this.orderNoLabel2.Size = new System.Drawing.Size(100, 25);
             this.orderNoLabel2.TabIndex = 14;
-            this.orderNoLabel2.Text = "Order No 2";
-            this.orderNoLabel2.Visible = false;
             // 
             // contentLabel2
             // 
             this.contentLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.contentLabel2.AutoSize = true;
-            this.contentLabel2.Location = new System.Drawing.Point(186, 265);
+            this.contentLabel2.Location = new System.Drawing.Point(166, 260);
+            this.contentLabel2.MinimumSize = new System.Drawing.Size(100, 25);
             this.contentLabel2.Name = "contentLabel2";
-            this.contentLabel2.Size = new System.Drawing.Size(59, 15);
+            this.contentLabel2.Size = new System.Drawing.Size(100, 25);
             this.contentLabel2.TabIndex = 15;
-            this.contentLabel2.Text = "Content 2";
-            this.contentLabel2.Visible = false;
             // 
             // costLabel2
             // 
             this.costLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.costLabel2.AutoSize = true;
-            this.costLabel2.Location = new System.Drawing.Point(372, 265);
+            this.costLabel2.Location = new System.Drawing.Point(342, 260);
+            this.costLabel2.MinimumSize = new System.Drawing.Size(100, 25);
             this.costLabel2.Name = "costLabel2";
-            this.costLabel2.Size = new System.Drawing.Size(40, 15);
+            this.costLabel2.Size = new System.Drawing.Size(100, 25);
             this.costLabel2.TabIndex = 16;
-            this.costLabel2.Text = "Cost 2";
-            this.costLabel2.Visible = false;
             // 
             // deliveryInformationLabel2
             // 
             this.deliveryInformationLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deliveryInformationLabel2.AutoSize = true;
-            this.deliveryInformationLabel2.Location = new System.Drawing.Point(504, 265);
+            this.deliveryInformationLabel2.Location = new System.Drawing.Point(516, 260);
+            this.deliveryInformationLabel2.MinimumSize = new System.Drawing.Size(100, 25);
             this.deliveryInformationLabel2.Name = "deliveryInformationLabel2";
-            this.deliveryInformationLabel2.Size = new System.Drawing.Size(124, 15);
+            this.deliveryInformationLabel2.Size = new System.Drawing.Size(100, 25);
             this.deliveryInformationLabel2.TabIndex = 17;
-            this.deliveryInformationLabel2.Text = "Delivery Information 2";
-            this.deliveryInformationLabel2.Visible = false;
             // 
             // OrderScreen
             // 
