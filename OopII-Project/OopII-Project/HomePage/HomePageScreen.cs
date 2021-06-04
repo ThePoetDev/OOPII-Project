@@ -15,7 +15,7 @@ namespace OopII_Project {
         {
             string current;
             SqlDataReader dr;
-            SqlConnection con, con2, con3;
+            SqlConnection con;
             SqlDataAdapter da;
             DataTable dt;
             DataSet ds;
@@ -30,7 +30,6 @@ namespace OopII_Project {
 
             private void LoginScreen_Load(object sender, EventArgs e)
             {
-
                 con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
                 da = new SqlDataAdapter("Select * From Products", con);
                 var ds = new DataSet();
@@ -39,9 +38,6 @@ namespace OopII_Project {
                 con.Close();
                 dataGridView1.ReadOnly = true;
                 dataGridView1.DataSource = ds.Tables[0];
-
-
-
             }
 
 

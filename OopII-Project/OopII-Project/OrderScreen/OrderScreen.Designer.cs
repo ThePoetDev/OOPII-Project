@@ -35,11 +35,11 @@ namespace OopII_Project {
             this.cancellationLabel = new System.Windows.Forms.Label();
             this.cancelButton1 = new System.Windows.Forms.Button();
             this.cancelButton2 = new System.Windows.Forms.Button();
-            this.orderNoLabel1 = new System.Windows.Forms.Label();
+            this.orderNameLabel1 = new System.Windows.Forms.Label();
             this.contentLabel1 = new System.Windows.Forms.Label();
             this.costLabel1 = new System.Windows.Forms.Label();
             this.deliveryInformationLabel1 = new System.Windows.Forms.Label();
-            this.orderNoLabel2 = new System.Windows.Forms.Label();
+            this.orderNameLabel2 = new System.Windows.Forms.Label();
             this.contentLabel2 = new System.Windows.Forms.Label();
             this.costLabel2 = new System.Windows.Forms.Label();
             this.deliveryInformationLabel2 = new System.Windows.Forms.Label();
@@ -130,11 +130,11 @@ namespace OopII_Project {
             this.tableLayoutPanel1.Controls.Add(this.cancellationLabel, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.cancelButton1, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.cancelButton2, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.orderNoLabel1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.orderNameLabel1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.contentLabel1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.costLabel1, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.deliveryInformationLabel1, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.orderNoLabel2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.orderNameLabel2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.contentLabel2, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.costLabel2, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.deliveryInformationLabel2, 3, 2);
@@ -167,6 +167,7 @@ namespace OopII_Project {
             this.cancelButton1.TabIndex = 8;
             this.cancelButton1.Text = "Cancel";
             this.cancelButton1.UseVisualStyleBackColor = true;
+            this.cancelButton1.Click += new System.EventHandler(this.cancelButton1_Click);
             // 
             // cancelButton2
             // 
@@ -177,16 +178,18 @@ namespace OopII_Project {
             this.cancelButton2.TabIndex = 9;
             this.cancelButton2.Text = "Cancel";
             this.cancelButton2.UseVisualStyleBackColor = true;
+            this.cancelButton2.Click += new System.EventHandler(this.cancelButton2_Click);
             // 
-            // orderNoLabel1
+            // orderNameLabel1
             // 
-            this.orderNoLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.orderNoLabel1.AutoSize = true;
-            this.orderNoLabel1.Location = new System.Drawing.Point(20, 103);
-            this.orderNoLabel1.MinimumSize = new System.Drawing.Size(100, 25);
-            this.orderNoLabel1.Name = "orderNoLabel1";
-            this.orderNoLabel1.Size = new System.Drawing.Size(100, 25);
-            this.orderNoLabel1.TabIndex = 10;
+            this.orderNameLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.orderNameLabel1.AutoSize = true;
+            this.orderNameLabel1.Location = new System.Drawing.Point(20, 103);
+            this.orderNameLabel1.MinimumSize = new System.Drawing.Size(100, 25);
+            this.orderNameLabel1.Name = "orderNameLabel1";
+            this.orderNameLabel1.Size = new System.Drawing.Size(100, 25);
+            this.orderNameLabel1.TabIndex = 10;
+            this.orderNameLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // contentLabel1
             // 
@@ -198,6 +201,7 @@ namespace OopII_Project {
             this.contentLabel1.Name = "contentLabel1";
             this.contentLabel1.Size = new System.Drawing.Size(100, 25);
             this.contentLabel1.TabIndex = 11;
+            this.contentLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // costLabel1
             // 
@@ -208,6 +212,7 @@ namespace OopII_Project {
             this.costLabel1.Name = "costLabel1";
             this.costLabel1.Size = new System.Drawing.Size(100, 25);
             this.costLabel1.TabIndex = 12;
+            this.costLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // deliveryInformationLabel1
             // 
@@ -218,16 +223,18 @@ namespace OopII_Project {
             this.deliveryInformationLabel1.Name = "deliveryInformationLabel1";
             this.deliveryInformationLabel1.Size = new System.Drawing.Size(100, 25);
             this.deliveryInformationLabel1.TabIndex = 13;
+            this.deliveryInformationLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // orderNoLabel2
+            // orderNameLabel2
             // 
-            this.orderNoLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.orderNoLabel2.AutoSize = true;
-            this.orderNoLabel2.Location = new System.Drawing.Point(20, 260);
-            this.orderNoLabel2.MinimumSize = new System.Drawing.Size(100, 25);
-            this.orderNoLabel2.Name = "orderNoLabel2";
-            this.orderNoLabel2.Size = new System.Drawing.Size(100, 25);
-            this.orderNoLabel2.TabIndex = 14;
+            this.orderNameLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.orderNameLabel2.AutoSize = true;
+            this.orderNameLabel2.Location = new System.Drawing.Point(20, 260);
+            this.orderNameLabel2.MinimumSize = new System.Drawing.Size(100, 25);
+            this.orderNameLabel2.Name = "orderNameLabel2";
+            this.orderNameLabel2.Size = new System.Drawing.Size(100, 25);
+            this.orderNameLabel2.TabIndex = 14;
+            this.orderNameLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // contentLabel2
             // 
@@ -238,6 +245,7 @@ namespace OopII_Project {
             this.contentLabel2.Name = "contentLabel2";
             this.contentLabel2.Size = new System.Drawing.Size(100, 25);
             this.contentLabel2.TabIndex = 15;
+            this.contentLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // costLabel2
             // 
@@ -248,6 +256,7 @@ namespace OopII_Project {
             this.costLabel2.Name = "costLabel2";
             this.costLabel2.Size = new System.Drawing.Size(100, 25);
             this.costLabel2.TabIndex = 16;
+            this.costLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // deliveryInformationLabel2
             // 
@@ -258,6 +267,7 @@ namespace OopII_Project {
             this.deliveryInformationLabel2.Name = "deliveryInformationLabel2";
             this.deliveryInformationLabel2.Size = new System.Drawing.Size(100, 25);
             this.deliveryInformationLabel2.TabIndex = 17;
+            this.deliveryInformationLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // OrderScreen
             // 
@@ -270,6 +280,7 @@ namespace OopII_Project {
             this.Controls.Add(this.backButton);
             this.Name = "OrderScreen";
             this.Text = "OrderScreen";
+            this.Load += new System.EventHandler(this.OrderScreen_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -288,8 +299,8 @@ namespace OopII_Project {
         private System.Windows.Forms.Label deliveryInformationLabel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label cancellationLabel;
-        private System.Windows.Forms.Label orderNoLabel1;
-        private System.Windows.Forms.Label orderNoLabel2;
+        private System.Windows.Forms.Label orderNameLabel1;
+        private System.Windows.Forms.Label orderNameLabel2;
         private System.Windows.Forms.Label contentLabel1;
         private System.Windows.Forms.Label contentLabel2;
         private System.Windows.Forms.Label costLabel1;
