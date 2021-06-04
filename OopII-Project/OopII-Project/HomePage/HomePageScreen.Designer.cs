@@ -41,10 +41,10 @@ namespace OopII_Project {
             // txtSearch
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearch.Location = new System.Drawing.Point(389, 19);
+            this.txtSearch.Location = new System.Drawing.Point(389, 18);
             this.txtSearch.MaxLength = 150;
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(279, 23);
+            this.txtSearch.Size = new System.Drawing.Size(381, 23);
             this.txtSearch.TabIndex = 0;
             // 
             // btnSearch
@@ -52,7 +52,7 @@ namespace OopII_Project {
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.Image = global::OopII_Project.Properties.Resources.search_icon;
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(665, 21);
+            this.btnSearch.Location = new System.Drawing.Point(791, 18);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(74, 23);
             this.btnSearch.TabIndex = 1;
@@ -81,7 +81,7 @@ namespace OopII_Project {
             this.btnLogInOut.ForeColor = System.Drawing.Color.Red;
             this.btnLogInOut.Image = global::OopII_Project.Properties.Resources.login;
             this.btnLogInOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogInOut.Location = new System.Drawing.Point(905, 11);
+            this.btnLogInOut.Location = new System.Drawing.Point(1016, 8);
             this.btnLogInOut.Name = "btnLogInOut";
             this.btnLogInOut.Size = new System.Drawing.Size(147, 41);
             this.btnLogInOut.TabIndex = 15;
@@ -138,7 +138,7 @@ namespace OopII_Project {
             // 
             this.btnBasket.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnBasket.Image = global::OopII_Project.Properties.Resources.add_to_cart;
-            this.btnBasket.Location = new System.Drawing.Point(822, 11);
+            this.btnBasket.Location = new System.Drawing.Point(924, 8);
             this.btnBasket.Name = "btnBasket";
             this.btnBasket.Size = new System.Drawing.Size(77, 41);
             this.btnBasket.TabIndex = 19;
@@ -150,7 +150,7 @@ namespace OopII_Project {
             // 
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAdd.ForeColor = System.Drawing.Color.Blue;
-            this.btnAdd.Location = new System.Drawing.Point(822, 71);
+            this.btnAdd.Location = new System.Drawing.Point(1031, 68);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(119, 34);
             this.btnAdd.TabIndex = 20;
@@ -160,18 +160,21 @@ namespace OopII_Project {
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 160);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 160);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(1079, 487);
+            this.dataGridView1.Size = new System.Drawing.Size(1157, 484);
             this.dataGridView1.TabIndex = 21;
             // 
             // HomePageScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1073, 659);
+            this.ClientSize = new System.Drawing.Size(1175, 656);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnBasket);

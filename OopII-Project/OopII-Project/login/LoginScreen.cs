@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 namespace OopII_Project {
     public partial class LoginScreen : Form {
 
-    
+
 
         SqlDataReader dr;
         SqlConnection con;
@@ -39,28 +39,28 @@ namespace OopII_Project {
 
                 if (dt.Rows.Count == 0) {
                     MessageBox.Show("Kayıtlı kullanıcı bulunamadı!", "Hata",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Error);
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
                 }
                 else {
-                                       Form homepageScreen = new HomePageScreen(usernameTextBox.Text);
+                    Form homepageScreen = new HomePageScreen(usernameTextBox.Text);
                     this.Hide();
                     homepageScreen.ShowDialog();
                     this.Close();
                 }
-                
+
 
             }
             catch (Exception a) {
                 MessageBox.Show(a.ToString());
             }
-         
 
 
 
 
 
-            
+
+
         }
 
         private void signupButton_Click(object sender, EventArgs e) {
