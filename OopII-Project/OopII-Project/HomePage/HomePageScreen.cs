@@ -128,8 +128,7 @@ namespace OopII_Project
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            int count = 0;
-            MessageBox.Show(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+            MessageBox.Show("Added to cart");
             SqlConnection con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
             con.Open();
             SqlConnection con2 = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");

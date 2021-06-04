@@ -21,6 +21,10 @@ namespace OopII_Project
         SqlCommand command;
         String item1, item2, item3, item4, item5, item1amount, item2amount, item3amount, item4amount, item5amount;
 
+        private void tlpCart1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
 
         string current;
         public ShoppingCartScreen(string _current)
@@ -36,6 +40,7 @@ namespace OopII_Project
 
         private void ShoppingCartScreen_Load(object sender, EventArgs e)
         {
+
             con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
             con2 = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
             da = new SqlDataAdapter("Select * From ShoppingCarts Where Username='" + current + "'", con);
@@ -128,7 +133,13 @@ namespace OopII_Project
             nupPrdQuantity4.Value = Convert.ToInt32(item4amount);
             nupPrdQuantity5.Value = Convert.ToInt32(item5amount);
 
+            int TotalPrice = Convert.ToInt32(lblPrdPrice1.Text) * Convert.ToInt32(item1amount) +
+                             Convert.ToInt32(lblPrdPrice2.Text) * Convert.ToInt32(item2amount) +
+                             Convert.ToInt32(lblPrdPrice3.Text) * Convert.ToInt32(item3amount) +
+                             Convert.ToInt32(lblPrdPrice4.Text) * Convert.ToInt32(item4amount) +
+                             Convert.ToInt32(lblPrdPrice5.Text) * Convert.ToInt32(item5amount);
 
+            lblTotalPrice.Text = "Total:" + TotalPrice.ToString() + "try";  
         }
 
         private void msMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
