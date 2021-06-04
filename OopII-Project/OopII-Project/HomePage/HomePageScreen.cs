@@ -2,23 +2,50 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
 namespace OopII_Project {
-    public partial class HomePageScreen : Form {
-        string current;
-        public HomePageScreen(string _current) {
-            InitializeComponent();
-            current = _current;
-            
-        }
 
-        private void LoginScreen_Load(object sender, EventArgs e)
+
+
+        public partial class HomePageScreen : Form
         {
+            string current;
+            SqlDataReader dr;
+            SqlConnection con, con2, con3;
+            SqlDataAdapter da;
+            DataTable dt;
+            DataSet ds;
+            SqlCommand command;
 
-        }
+            public HomePageScreen(string _current)
+            {
+                InitializeComponent();
+                current = _current;
+
+            }
+
+            private void LoginScreen_Load(object sender, EventArgs e)
+            {
+
+                con = new SqlConnection("Data Source=SQL5050.site4now.net;Initial Catalog=db_a756f7_oopii;User Id=db_a756f7_oopii_admin;Password=Oop2project");
+                da = new SqlDataAdapter("Select * From Products", con);
+                var ds = new DataSet();
+                con.Open();
+                da.Fill(ds);
+                con.Close();
+                dataGridView1.ReadOnly = true;
+                dataGridView1.DataSource = ds.Tables[0];
+
+
+
+            }
+
+
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
 
